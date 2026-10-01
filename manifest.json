@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "jonasbove.herdrmon",
+  "name": "Herdrmon",
+  "version": "0.1.0",
+  "author": "Jonas Bove",
+  "license": "MIT",
+  "description": "Poké Ball bar widget that opens herdrmon: pick a tailnet device in a FireRed-style party screen and jump into a Herdr workspace on it.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "omarchy/BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Herdrmon",
+    "description": "Click to open herdrmon (floating). If it isn't installed yet, click runs the installer in a terminal instead.",
+    "category": "Tools",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}

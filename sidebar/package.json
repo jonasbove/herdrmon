@@ -1,0 +1,11 @@
+{
+  "name": "herdrmon-sidebar",
+  "private": true,
+  "description": "Herdr plugin jonasbove.herdrmon: animated machine Pokémon and agent labels in the Herdr sidebar",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "check": "for f in lib/*.js bin/*.js tools/*.js test/*.js; do node --check \"$f\" || exit 1; done",
+    "test": "node --test test/*.test.js"
+  }
+}

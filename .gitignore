@@ -1,0 +1,9 @@
+/herdrmon
+/testdata/*.png
+# Nintendo art: fetched at install time, never committed
+/font/assets/
+/font/out/
+*.otf
+/result
+__pycache__/
+/REPORT.md

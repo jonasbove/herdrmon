@@ -1,0 +1,52 @@
+id = "jonasbove.herdrmon"
+name = "Herdrmon"
+version = "0.1.0"
+min_herdr_version = "0.9.0"
+description = "Your machine's Pokémon in the Herdr sidebar, animated (poison while an agent waits on you, asleep at night, tackle on commit), plus agent and program labels for every pane."
+platforms = ["linux", "macos"]
+
+# Node >= 18, no npm dependencies, so there is no [[build]] step.
+#
+# Tokens published under source "plugin:jonasbove.herdrmon":
+#   pane      $mon (first agent pane of each workspace), $agent, $tools, $tool_1..$tool_4
+#   workspace $mon, $tools, $tool_1..$tool_4
+
+[[actions]]
+id = "configure"
+title = "Herdrmon: write the sidebar layout"
+description = "Write a managed block using $mon/$agent/$tools into Herdr's config.toml (skipping tables another plugin owns, and printing what to add there) and reload."
+command = ["node", "bin/configure.js", "--write", "--reload"]
+
+[[actions]]
+id = "unconfigure"
+title = "Herdrmon: remove the sidebar layout"
+description = "Stop the daemon, clear its tokens, remove the managed block and reload."
+command = ["node", "bin/configure.js", "--uninstall", "--reload"]
+
+[[actions]]
+id = "start"
+title = "Herdrmon: start the sidebar daemon"
+command = ["node", "bin/start.js"]
+
+[[actions]]
+id = "stop"
+title = "Herdrmon: stop the sidebar daemon"
+description = "Stop the daemon and clear every token it published."
+command = ["node", "bin/stop.js"]
+
+[[actions]]
+id = "demo"
+title = "Herdrmon: demo the animations"
+description = "Play every animation on the focused workspace's Pokémon: send out, tackle, harden, sleep, poison, recall."
+contexts = ["workspace"]
+command = ["node", "bin/demo.js"]
+
+# The daemon lives as long as the server; startup hooks are one-shot, so
+# start.js spawns it detached and returns.
+[[startup]]
+command = ["node", "bin/start.js", "--quiet"]
+
+# Watchdog: a crashed daemon comes back the next time an agent appears.
+[[events]]
+on = "pane.agent_detected"
+command = ["node", "bin/start.js", "--quiet"]
