@@ -80,11 +80,11 @@ ssh_config = false    # add Host entries from ~/.ssh/config
 herdr = true          # add every `herdr machine list` entry
 
 [[device]]
-name = "geodude"           # key and display name (Display = capitalised, or `display = "Ho-oh"`)
-mon = "geodude"            # species slug (pret folder name, e.g. "ho_oh", "deoxys", "mr_mime"); default: see below
+name = "pikachu"           # key and display name (Display = capitalised, or `display = "Ho-oh"`)
+mon = "pikachu"            # species slug (pret folder name, e.g. "ho_oh", "deoxys", "mr_mime"); default: see below
 transport = "ssh"          # "local" | "tailscale" | "ssh" | "http" | "none"
-address = "geodude"        # ssh target / tailnet name or IP / http(s) base URL
-herdr_machine = "Geodude"  # herdr --machine label; default = matched from `herdr machine list`; "-" = no Herdr
+address = "pikachu"        # ssh target / tailnet name or IP / http(s) base URL
+herdr_machine = "Pikachu"  # herdr --machine label; default = matched from `herdr machine list`; "-" = no Herdr
 form = ""                  # optional sprite variant, e.g. "attack" for Deoxys (FRLG)
 
 [device.battery]           # optional: where BAT comes from

@@ -78,7 +78,7 @@ Or with home-manager:
     settings = {
       discovery.tailscale = true;
       device = [
-        { name = "geodude"; transport = "ssh"; address = "geodude"; }
+        { name = "pikachu"; transport = "ssh"; address = "pikachu"; }
       ];
     };
   };
@@ -129,10 +129,10 @@ start = 22
 end = 7
 
 [[device]]
-name = "geodude"
-mon = "geodude"       # herdrmon pick writes this
+name = "pikachu"
+mon = "pikachu"       # herdrmon pick writes this
 transport = "ssh"     # local | tailscale | ssh | http | none
-address = "geodude"
+address = "pikachu"
 
 [[device]]
 name = "phone"
@@ -174,11 +174,11 @@ ssh_config = false          # add Host entries from ~/.ssh/config
 herdr = true                # add every `herdr machine list` entry
 
 [[device]]
-name = "geodude"            # key and display name
-mon = "geodude"              # species slug; default: see "Default mon" below
+name = "pikachu"            # key and display name
+mon = "pikachu"              # species slug; default: see "Default mon" below
 transport = "ssh"            # "local" | "tailscale" | "ssh" | "http" | "none"
-address = "geodude"           # ssh target / tailnet name or IP / http(s) base URL
-herdr_machine = "Geodude"     # herdr --machine label; "-" = no Herdr
+address = "pikachu"           # ssh target / tailnet name or IP / http(s) base URL
+herdr_machine = "Pikachu"     # herdr --machine label; "-" = no Herdr
 form = ""                     # optional sprite variant (e.g. Deoxys forms)
 
 [device.battery]
