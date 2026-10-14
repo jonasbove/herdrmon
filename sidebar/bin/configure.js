@@ -8,6 +8,8 @@
 //   node bin/configure.js --write      write the block (backup first)
 //   node bin/configure.js --uninstall  stop the daemon, remove the block
 //   --reload                           then `herdr server reload-config`
+//   --no-backup                        no config.toml.bak.<time> (the caller
+//                                      keeps its own, e.g. bove-theme-sync)
 //   --herdr-config PATH                another config.toml (default: Herdr's)
 
 require('../lib/node-version').check();
@@ -47,10 +49,11 @@ function write(next, prev) {
     console.error(`refusing to write ${file}: result would not parse (${e.message})`);
     return false;
   }
-  if (prev) fs.copyFileSync(file, `${file}.bak.${Math.floor(Date.now() / 1000)}`);
+  const backup = prev && !flag('--no-backup');
+  if (backup) fs.copyFileSync(file, `${file}.bak.${Math.floor(Date.now() / 1000)}`);
   paths.ensureDir(require('node:path').dirname(file));
   fs.writeFileSync(file, next);
-  console.log(`${file}: written${prev ? ' (backup alongside)' : ''}`);
+  console.log(`${file}: written${backup ? ' (backup alongside)' : ''}`);
   return true;
 }
 

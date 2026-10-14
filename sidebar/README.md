@@ -62,7 +62,9 @@ gets its own daemon, so named sessions work too.
 | `demo` | Plays every animation on the focused workspace: send-out, tackle, harden, sleep, poison, then recall and send-out. |
 
 `node bin/configure.js` with no flags only prints. `--write`, `--reload`,
-`--uninstall` and `--herdr-config PATH` do what they say.
+`--uninstall` and `--herdr-config PATH` do what they say; `--no-backup` skips
+the `config.toml.bak.<time>` copy (for callers that keep their own, like
+BovéOS's `bove-theme-sync`, which re-runs `configure` on every theme switch).
 
 ### Next to herdr-radar (or your own layout)
 

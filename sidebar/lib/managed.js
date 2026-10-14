@@ -50,7 +50,8 @@ function layouts(resolved) {
   const agent = token('agent', 'text', resolved);
   const tools = token('tools', 'subtext0', resolved);
   return {
-    agents: [[mon], ['state_icon', 'machine', 'workspace', 'tab'], [agent, tools]],
+    // Two lines per agent (more of them fit): the mon leads the status line.
+    agents: [[mon, 'state_icon', 'machine', 'workspace', 'tab'], [agent, tools]],
     spaces: [['state_icon', mon, 'workspace'], ['branch', 'git_status'], [tools]],
   };
 }
