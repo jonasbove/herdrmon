@@ -208,7 +208,8 @@ Every path is XDG-based and overridable by environment variable:
 `sidebar/` is a standalone Herdr plugin (`jonasbove.herdrmon`) that animates
 each machine's Pokémon in Herdr's sidebar (`$mon`) and labels panes by agent
 and program (`$agent`, `$tools`, `$tool_1..4`). It works with or without
-herdr-radar. See [sidebar/README.md](sidebar/README.md).
+herdr-radar. It is one Go binary that `herdr plugin install` builds (Go only,
+no Node). See [sidebar/README.md](sidebar/README.md).
 
 ## Font
 

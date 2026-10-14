@@ -105,18 +105,30 @@
           };
         herdrmon-icons = mkHerdrmonIcons { };
 
-        # A pure-Node Herdr plugin with no npm dependencies and no build step
-        # (sidebar/herdr-plugin.toml, sidebar/README.md) — just copy it in.
-        herdrmon-sidebar = pkgs.stdenvNoCC.mkDerivation {
+        # The Herdr plugin directory: its manifest, agents.json and README next
+        # to the Go binary it runs (bin/herdrmon-sidebar), built from this same
+        # module (sidebar/ + internal/pokedex, standard library only).
+        herdrmon-sidebar = pkgs.buildGoModule {
           pname = "herdrmon-sidebar";
-          version = "0.1.0";
-          src = ./sidebar;
-          dontBuild = true;
-          installPhase = ''
-            runHook preInstall
-            mkdir -p "$out"
-            cp -r . "$out/"
-            runHook postInstall
+          version = "0.2.0";
+          src = lib.cleanSourceWith {
+            src = ./.;
+            filter = path: type:
+              let base = baseNameOf path;
+              in !(lib.hasSuffix ".nix" base || base == "flake.lock" || base == "font" || base == "omarchy"
+                   || base == "docs" || base == "testdata" || (base == "bin" && baseNameOf (dirOf path) == "sidebar"));
+          };
+          # Same go.mod/go.sum as herdrmon, so the same vendored modules.
+          inherit (herdrmon) vendorHash;
+          subPackages = [ "sidebar" ];
+          env.CGO_ENABLED = 0;
+          ldflags = [ "-s" "-w" ];
+          # The tests build the binary and run a daemon against a fake Herdr
+          # socket; they belong to `go test ./sidebar`, not to packaging.
+          doCheck = false;
+          postInstall = ''
+            mv "$out/bin/sidebar" "$out/bin/herdrmon-sidebar"
+            cp sidebar/herdr-plugin.toml sidebar/agents.json sidebar/README.md "$out/"
           '';
           meta.description = "Herdr plugin: animates each machine's Pokemon in the Herdr sidebar";
         };
@@ -134,7 +146,6 @@
             pkgs.go_1_27
             pkgs.uv
             (pkgs.python3.withPackages (ps: [ ps.fonttools ps.pillow ps.skia-pathops ]))
-            pkgs.nodejs_22
             pkgs.gotools
             pkgs.gopls
           ];

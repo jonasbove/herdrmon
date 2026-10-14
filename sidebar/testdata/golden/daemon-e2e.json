@@ -1,0 +1,152 @@
+{
+ "after_stop_ping": null,
+ "bogus_play": {
+  "error": "unknown command",
+  "ok": false
+ },
+ "force": {
+  "ok": true
+ },
+ "phase1": {
+  "p:w1:p1": {
+   "agent": "​​​​​​​​​​​​✻ Claude Code",
+   "mon": "P",
+   "tool_1": "​​​​​​​​​​ react",
+   "tool_2": "​​​​​​​​​​​​ git",
+   "tool_3": "​​​​​​​​ top",
+   "tool_4": "​​​​​​​​​​ python +2",
+   "tools": "​​ react   git   top   python   ssh"
+  },
+  "p:w1:p8": {
+   "agent": "​Λ Codex"
+  },
+  "p:w2:p1": {
+   "agent": "​​​​​​​​​​✦ Gemini",
+   "mon": "B"
+  },
+  "w:w1": {
+   "mon": "P",
+   "tool_1": "​​​​​​​​​​​​✻ Claude Code",
+   "tool_2": "​​​​​​​​​​ react",
+   "tool_3": "​​​​​​​​​​​​ git",
+   "tool_4": "​​​​​​​​ top +4",
+   "tools": "​​✻ Claude Code   react   git   top   python   ssh  Λ Codex"
+  },
+  "w:w2": {
+   "mon": "B",
+   "tool_1": "​​​​​​​​​​✦ Gemini",
+   "tools": "​​✦ Gemini"
+  },
+  "w:w3": {
+   "mon": "B",
+   "tool_1": "​​​​​​​​ files",
+   "tools": "​​ files"
+  }
+ },
+ "phase2": {
+  "p:w1:p1": {
+   "agent": "​​​​​​​​​​​​✻ Claude Code",
+   "tool_1": "​​​​​​​​​​ react",
+   "tool_2": "​​​​​​​​​​​​ git",
+   "tool_3": "​​​​​​​​ top",
+   "tool_4": "​​​​​​​​​​ python +2",
+   "tools": "​​ react   git   top   python   ssh"
+  },
+  "p:w1:p8": {
+   "agent": "​Λ Codex",
+   "mon": "B"
+  },
+  "p:w2:p1": {
+   "agent": "​​​​​​​​​​✦ Gemini",
+   "mon": "B"
+  },
+  "p:w3:p2": {
+   "agent": "​​​​​​​◭ Aider",
+   "mon": "B",
+   "tool_1": "​​​​​​​​ files",
+   "tools": "​​ files"
+  },
+  "w:w1": {
+   "mon": "B",
+   "tool_1": "​Λ Codex",
+   "tool_2": "​​​​​​​​​​​​✻ Claude Code",
+   "tool_3": "​​​​​​​​​​ react",
+   "tool_4": "​​​​​​​​​​​​ git +4",
+   "tools": "​​Λ Codex  ✻ Claude Code   react   git   top   python   ssh"
+  },
+  "w:w2": {
+   "mon": "B"
+  },
+  "w:w3": {
+   "mon": "B",
+   "tool_1": "​​​​​​​​ files",
+   "tool_2": "​​​​​​​◭ Aider",
+   "tools": "​​ files  ◭ Aider"
+  }
+ },
+ "phase3": {
+  "p:w1:p1": {
+   "agent": "​​​​​​​​​​​​✻ Claude Code",
+   "tool_1": "​​​​​​​​​​ react",
+   "tool_2": "​​​​​​​​​​​​ git",
+   "tool_3": "​​​​​​​​ top",
+   "tool_4": "​​​​​​​​​​ python +2",
+   "tools": "​​ react   git   top   python   ssh"
+  },
+  "p:w1:p8": {
+   "agent": "​Λ Codex",
+   "mon": "B"
+  },
+  "p:w2:p1": {
+   "agent": "​​​​​​​​​​✦ Gemini",
+   "mon": "B"
+  },
+  "p:w3:p2": {
+   "agent": "​​​​​​​◭ Aider",
+   "mon": "B",
+   "tool_1": "​​​​​​​​ files",
+   "tools": "​​ files"
+  },
+  "w:w1": {
+   "mon": "B",
+   "tool_1": "​Λ Codex",
+   "tool_2": "​​​​​​​​​​​​✻ Claude Code",
+   "tool_3": "​​​​​​​​​​ react",
+   "tool_4": "​​​​​​​​​​​​ git +4",
+   "tools": "​​Λ Codex  ✻ Claude Code   react   git   top   python   ssh"
+  },
+  "w:w2": {
+   "mon": "B"
+  },
+  "w:w3": {
+   "mon": "B",
+   "tool_1": "​​​​​​​​ files",
+   "tool_2": "​​​​​​​◭ Aider",
+   "tools": "​​ files  ◭ Aider"
+  }
+ },
+ "ping": {
+  "frames": true,
+  "mon": "onix",
+  "ok": true,
+  "self": "testbox"
+ },
+ "play": {
+  "done": "tackle",
+  "ok": true
+ },
+ "protocol": null,
+ "stop": {
+  "ok": true
+ },
+ "stopped": {
+  "p:w2:p1": {
+   "agent": "​​​​​​​​​​✦ Gemini",
+   "mon": "B"
+  }
+ },
+ "unknown": {
+  "error": "unknown command",
+  "ok": false
+ }
+}

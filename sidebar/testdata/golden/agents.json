@@ -1,0 +1,1258 @@
+[
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "claude",
+  "hit": {
+   "id": "claude",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "✻",
+    "label": "Claude Code",
+    "colour": "peach"
+   },
+   "text": {
+    "glyph": "✻",
+    "label": "Claude Code",
+    "colour": "peach"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "cursor-agent",
+  "hit": {
+   "id": "cursor",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "◆",
+    "label": "Cursor",
+    "colour": "text"
+   },
+   "text": {
+    "glyph": "◆",
+    "label": "Cursor",
+    "colour": "text"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "nvim",
+  "hit": {
+   "id": "neovim",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "neovim",
+    "colour": "green"
+   },
+   "text": {
+    "glyph": "ν",
+    "label": "neovim",
+    "colour": "green"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "hx",
+  "hit": {
+   "id": "helix",
+   "kind": "program",
+   "nerd": {
+    "glyph": "ℏ",
+    "label": "helix",
+    "colour": "mauve"
+   },
+   "text": {
+    "glyph": "ℏ",
+    "label": "helix",
+    "colour": "mauve"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {
+   "agent": "hermes"
+  },
+  "proc": "python3",
+  "hit": {
+   "id": "hermes",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "☤",
+    "label": "Hermes",
+    "colour": "blue"
+   },
+   "text": {
+    "glyph": "☤",
+    "label": "Hermes",
+    "colour": "blue"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {
+   "agent": "cursor"
+  },
+  "proc": "node",
+  "hit": {
+   "id": "cursor",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "◆",
+    "label": "Cursor",
+    "colour": "text"
+   },
+   "text": {
+    "glyph": "◆",
+    "label": "Cursor",
+    "colour": "text"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "-zsh",
+  "hit": {
+   "id": "shell",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "shell",
+    "colour": "overlay1"
+   },
+   "text": {
+    "glyph": "$",
+    "label": "shell",
+    "colour": "overlay1"
+   },
+   "hide": true
+  }
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "/usr/bin/python3.12",
+  "hit": {
+   "id": "python",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "python",
+    "colour": "blue"
+   },
+   "text": {
+    "glyph": "py",
+    "label": "python",
+    "colour": "blue"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "unknownthing",
+  "hit": null
+ },
+ {
+  "table": "default",
+  "pane": {
+   "title": "aider v0.80"
+  },
+  "proc": "python3",
+  "hit": {
+   "id": "python",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "python",
+    "colour": "blue"
+   },
+   "text": {
+    "glyph": "py",
+    "label": "python",
+    "colour": "blue"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {
+   "title": "aider v0.80"
+  },
+  "proc": "",
+  "hit": {
+   "id": "aider",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "◭",
+    "label": "Aider",
+    "colour": "green"
+   },
+   "text": {
+    "glyph": "◭",
+    "label": "Aider",
+    "colour": "green"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {
+   "agent": "newbot"
+  },
+  "proc": "",
+  "hit": {
+   "id": "newbot",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "•",
+    "label": "newbot",
+    "colour": "text"
+   },
+   "text": {
+    "glyph": "•",
+    "label": "newbot",
+    "colour": "text"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {
+   "agent": "NewBot"
+  },
+  "proc": "zsh",
+  "hit": {
+   "id": "shell",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "shell",
+    "colour": "overlay1"
+   },
+   "text": {
+    "glyph": "$",
+    "label": "shell",
+    "colour": "overlay1"
+   },
+   "hide": true
+  }
+ },
+ {
+  "table": "default",
+  "pane": {
+   "agent": "Claude"
+  },
+  "proc": "",
+  "hit": {
+   "id": "claude",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "✻",
+    "label": "Claude Code",
+    "colour": "peach"
+   },
+   "text": {
+    "glyph": "✻",
+    "label": "Claude Code",
+    "colour": "peach"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "python",
+  "hit": {
+   "id": "python",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "python",
+    "colour": "blue"
+   },
+   "text": {
+    "glyph": "py",
+    "label": "python",
+    "colour": "blue"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "python3.12.1",
+  "hit": {
+   "id": "python",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "python",
+    "colour": "blue"
+   },
+   "text": {
+    "glyph": "py",
+    "label": "python",
+    "colour": "blue"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "node22",
+  "hit": {
+   "id": "node",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "node",
+    "colour": "green"
+   },
+   "text": {
+    "glyph": "js",
+    "label": "node",
+    "colour": "green"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "Go",
+  "hit": {
+   "id": "go",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "go",
+    "colour": "teal"
+   },
+   "text": {
+    "glyph": "go",
+    "label": "go",
+    "colour": "teal"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "/nix/store/abc-bash-5/bin/bash",
+  "hit": {
+   "id": "shell",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "shell",
+    "colour": "overlay1"
+   },
+   "text": {
+    "glyph": "$",
+    "label": "shell",
+    "colour": "overlay1"
+   },
+   "hide": true
+  }
+ },
+ {
+  "table": "default",
+  "pane": {
+   "terminal_title": "aider"
+  },
+  "proc": "",
+  "hit": {
+   "id": "aider",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "◭",
+    "label": "Aider",
+    "colour": "green"
+   },
+   "text": {
+    "glyph": "◭",
+    "label": "Aider",
+    "colour": "green"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "my-agent",
+  "hit": null
+ },
+ {
+  "table": "default",
+  "pane": {
+   "title": "titled thing"
+  },
+  "proc": "",
+  "hit": null
+ },
+ {
+  "table": "default",
+  "pane": {
+   "agent": "titled-id"
+  },
+  "proc": "",
+  "hit": {
+   "id": "titled-id",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "•",
+    "label": "titled-id",
+    "colour": "text"
+   },
+   "text": {
+    "glyph": "•",
+    "label": "titled-id",
+    "colour": "text"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "m2",
+  "hit": null
+ },
+ {
+  "table": "default",
+  "pane": {
+   "agent": "override"
+  },
+  "proc": "",
+  "hit": {
+   "id": "override",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "•",
+    "label": "override",
+    "colour": "text"
+   },
+   "text": {
+    "glyph": "•",
+    "label": "override",
+    "colour": "text"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "kiro-cli",
+  "hit": {
+   "id": "kiro",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "Ω",
+    "label": "Kiro",
+    "colour": "mauve"
+   },
+   "text": {
+    "glyph": "Ω",
+    "label": "Kiro",
+    "colour": "mauve"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "lazygit",
+  "hit": {
+   "id": "git",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "git",
+    "colour": "peach"
+   },
+   "text": {
+    "glyph": "±",
+    "label": "git",
+    "colour": "peach"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "42",
+  "hit": null
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "",
+  "hit": null
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": null,
+  "hit": null
+ },
+ {
+  "table": "default",
+  "pane": {
+   "agent": "claude",
+   "title": "x"
+  },
+  "proc": "nvim",
+  "hit": {
+   "id": "claude",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "✻",
+    "label": "Claude Code",
+    "colour": "peach"
+   },
+   "text": {
+    "glyph": "✻",
+    "label": "Claude Code",
+    "colour": "peach"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "cargo",
+  "hit": {
+   "id": "cargo",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "cargo",
+    "colour": "peach"
+   },
+   "text": {
+    "glyph": "rs",
+    "label": "cargo",
+    "colour": "peach"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "rustc1.80",
+  "hit": {
+   "id": "cargo",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "cargo",
+    "colour": "peach"
+   },
+   "text": {
+    "glyph": "rs",
+    "label": "cargo",
+    "colour": "peach"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "default",
+  "pane": {},
+  "proc": "bun",
+  "hit": {
+   "id": "node",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "node",
+    "colour": "green"
+   },
+   "text": {
+    "glyph": "js",
+    "label": "node",
+    "colour": "green"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "claude",
+  "hit": {
+   "id": "claude",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "✻",
+    "label": "Claude Code",
+    "colour": "mauve"
+   },
+   "text": {
+    "glyph": "✻",
+    "label": "Claude Code",
+    "colour": "mauve"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "cursor-agent",
+  "hit": {
+   "id": "cursor",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "◆",
+    "label": "Cursor",
+    "colour": "text"
+   },
+   "text": {
+    "glyph": "◆",
+    "label": "Cursor",
+    "colour": "text"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "nvim",
+  "hit": {
+   "id": "neovim",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "nv",
+    "colour": "green"
+   },
+   "text": {
+    "glyph": "ν",
+    "label": "nv",
+    "colour": "green"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "hx",
+  "hit": {
+   "id": "helix",
+   "kind": "program",
+   "nerd": {
+    "glyph": "ℏ",
+    "label": "helix",
+    "colour": "mauve"
+   },
+   "text": {
+    "glyph": "ℏ",
+    "label": "helix",
+    "colour": "mauve"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {
+   "agent": "hermes"
+  },
+  "proc": "python3",
+  "hit": {
+   "id": "hermes",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "☤",
+    "label": "Hermes",
+    "colour": "blue"
+   },
+   "text": {
+    "glyph": "☤",
+    "label": "Hermes",
+    "colour": "blue"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {
+   "agent": "cursor"
+  },
+  "proc": "node",
+  "hit": {
+   "id": "cursor",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "◆",
+    "label": "Cursor",
+    "colour": "text"
+   },
+   "text": {
+    "glyph": "◆",
+    "label": "Cursor",
+    "colour": "text"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "-zsh",
+  "hit": {
+   "id": "shell",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "shell",
+    "colour": "overlay1"
+   },
+   "text": {
+    "glyph": "$",
+    "label": "shell",
+    "colour": "overlay1"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "/usr/bin/python3.12",
+  "hit": {
+   "id": "python",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "python",
+    "colour": "blue"
+   },
+   "text": {
+    "glyph": "py",
+    "label": "python",
+    "colour": "blue"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "unknownthing",
+  "hit": null
+ },
+ {
+  "table": "custom",
+  "pane": {
+   "title": "aider v0.80"
+  },
+  "proc": "python3",
+  "hit": {
+   "id": "python",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "python",
+    "colour": "blue"
+   },
+   "text": {
+    "glyph": "py",
+    "label": "python",
+    "colour": "blue"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {
+   "title": "aider v0.80"
+  },
+  "proc": "",
+  "hit": {
+   "id": "aider",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "◭",
+    "label": "Aider",
+    "colour": "green"
+   },
+   "text": {
+    "glyph": "◭",
+    "label": "Aider",
+    "colour": "green"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {
+   "agent": "newbot"
+  },
+  "proc": "",
+  "hit": {
+   "id": "newbot",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "•",
+    "label": "newbot",
+    "colour": "text"
+   },
+   "text": {
+    "glyph": "•",
+    "label": "newbot",
+    "colour": "text"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {
+   "agent": "NewBot"
+  },
+  "proc": "zsh",
+  "hit": {
+   "id": "shell",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "shell",
+    "colour": "overlay1"
+   },
+   "text": {
+    "glyph": "$",
+    "label": "shell",
+    "colour": "overlay1"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {
+   "agent": "Claude"
+  },
+  "proc": "",
+  "hit": {
+   "id": "claude",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "✻",
+    "label": "Claude Code",
+    "colour": "mauve"
+   },
+   "text": {
+    "glyph": "✻",
+    "label": "Claude Code",
+    "colour": "mauve"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "python",
+  "hit": {
+   "id": "python",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "python",
+    "colour": "blue"
+   },
+   "text": {
+    "glyph": "py",
+    "label": "python",
+    "colour": "blue"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "python3.12.1",
+  "hit": {
+   "id": "python",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "python",
+    "colour": "blue"
+   },
+   "text": {
+    "glyph": "py",
+    "label": "python",
+    "colour": "blue"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "node22",
+  "hit": {
+   "id": "node",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "node",
+    "colour": "green"
+   },
+   "text": {
+    "glyph": "js",
+    "label": "node",
+    "colour": "green"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "Go",
+  "hit": {
+   "id": "go",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "go",
+    "colour": "teal"
+   },
+   "text": {
+    "glyph": "go",
+    "label": "go",
+    "colour": "teal"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "/nix/store/abc-bash-5/bin/bash",
+  "hit": {
+   "id": "shell",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "shell",
+    "colour": "overlay1"
+   },
+   "text": {
+    "glyph": "$",
+    "label": "shell",
+    "colour": "overlay1"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {
+   "terminal_title": "aider"
+  },
+  "proc": "",
+  "hit": {
+   "id": "aider",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "◭",
+    "label": "Aider",
+    "colour": "green"
+   },
+   "text": {
+    "glyph": "◭",
+    "label": "Aider",
+    "colour": "green"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "my-agent",
+  "hit": {
+   "id": "myagent",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "◎",
+    "label": "Mine",
+    "colour": "text"
+   },
+   "text": {
+    "glyph": "◎",
+    "label": "Mine",
+    "colour": "text"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {
+   "title": "titled thing"
+  },
+  "proc": "",
+  "hit": {
+   "id": "titled",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "•",
+    "label": "titled",
+    "colour": "text"
+   },
+   "text": {
+    "glyph": "•",
+    "label": "titled",
+    "colour": "text"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {
+   "agent": "titled-id"
+  },
+  "proc": "",
+  "hit": {
+   "id": "titled",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "•",
+    "label": "titled",
+    "colour": "text"
+   },
+   "text": {
+    "glyph": "•",
+    "label": "titled",
+    "colour": "text"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "m2",
+  "hit": {
+   "id": "matchy",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "•",
+    "label": "matchy",
+    "colour": "text"
+   },
+   "text": {
+    "glyph": "•",
+    "label": "matchy",
+    "colour": "text"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {
+   "agent": "override"
+  },
+  "proc": "",
+  "hit": {
+   "id": "matchy",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "•",
+    "label": "matchy",
+    "colour": "text"
+   },
+   "text": {
+    "glyph": "•",
+    "label": "matchy",
+    "colour": "text"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "kiro-cli",
+  "hit": {
+   "id": "kiro",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "Ω",
+    "label": "Kiro",
+    "colour": "mauve"
+   },
+   "text": {
+    "glyph": "Ω",
+    "label": "Kiro",
+    "colour": "mauve"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "lazygit",
+  "hit": {
+   "id": "git",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "git",
+    "colour": "peach"
+   },
+   "text": {
+    "glyph": "±",
+    "label": "git",
+    "colour": "peach"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "42",
+  "hit": null
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "",
+  "hit": null
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": null,
+  "hit": null
+ },
+ {
+  "table": "custom",
+  "pane": {
+   "agent": "claude",
+   "title": "x"
+  },
+  "proc": "nvim",
+  "hit": {
+   "id": "claude",
+   "kind": "agent",
+   "nerd": {
+    "glyph": "✻",
+    "label": "Claude Code",
+    "colour": "mauve"
+   },
+   "text": {
+    "glyph": "✻",
+    "label": "Claude Code",
+    "colour": "mauve"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "cargo",
+  "hit": {
+   "id": "cargo",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "cargo",
+    "colour": "peach"
+   },
+   "text": {
+    "glyph": "rs",
+    "label": "cargo",
+    "colour": "peach"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "rustc1.80",
+  "hit": {
+   "id": "cargo",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "cargo",
+    "colour": "peach"
+   },
+   "text": {
+    "glyph": "rs",
+    "label": "cargo",
+    "colour": "peach"
+   },
+   "hide": false
+  }
+ },
+ {
+  "table": "custom",
+  "pane": {},
+  "proc": "bun",
+  "hit": {
+   "id": "node",
+   "kind": "program",
+   "nerd": {
+    "glyph": "",
+    "label": "node",
+    "colour": "green"
+   },
+   "text": {
+    "glyph": "js",
+    "label": "node",
+    "colour": "green"
+   },
+   "hide": false
+  }
+ }
+]

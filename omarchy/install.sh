@@ -162,18 +162,6 @@ check_deps() {
     ok=0
   fi
 
-  if command -v node >/dev/null 2>&1; then
-    local major
-    major="$(node --version | sed -E 's/^v([0-9]+).*/\1/')"
-    if [[ "$major" -ge 18 ]]; then
-      info "node: $(node --version)"
-    else
-      warn "node $(node --version) is older than 18 — the sidebar plugin may not run"
-    fi
-  else
-    warn "no 'node' found — the sidebar plugin needs it (herdr itself is still optional)"
-  fi
-
   if command -v herdr >/dev/null 2>&1; then
     info "herdr: found, the sidebar plugin will be linked in"
   else
@@ -401,8 +389,9 @@ undo_terminal_fallbacks() {
 }
 
 # --------------------------------------------------------------- sidebar
-# sidebar/ is a pure-Node Herdr plugin with no npm dependencies and no build
-# step (see sidebar/README.md), so linking it is all the setup it needs.
+# sidebar/ is a Herdr plugin built from Go (one binary, standard library
+# only; see sidebar/README.md). `herdr plugin link` runs no build steps, so
+# build it here, then link it.
 link_sidebar() {
   step "Herdr sidebar plugin"
   if ! command -v herdr >/dev/null 2>&1; then
@@ -413,6 +402,18 @@ link_sidebar() {
     warn "sidebar/ not present in this checkout, skipping"
     return
   fi
+  if ! (
+    cd -- "$REPO_ROOT/sidebar"
+    if command -v go >/dev/null 2>&1; then
+      CGO_ENABLED=0 go build -trimpath -o bin/herdrmon-sidebar .
+    else
+      CGO_ENABLED=0 mise exec go@1.27.0 -- go build -trimpath -o bin/herdrmon-sidebar .
+    fi
+  ); then
+    warn "building the sidebar plugin failed, skipping it"
+    return
+  fi
+  info "built sidebar/bin/herdrmon-sidebar"
   if herdr plugin list 2>/dev/null | grep -qF -- "- $SIDEBAR_PLUGIN_ID "; then
     info "already linked"
   elif herdr plugin link "$REPO_ROOT/sidebar" >/dev/null; then

@@ -1,0 +1,5018 @@
+[
+ {
+  "text": "self = \"geodude\"\n[[device]]\nname = \"geodude\"\nmon = \"Tangela\"\n",
+  "resolved": {
+   "self": "geodude",
+   "mon": "tangela",
+   "form": "",
+   "agents": {
+    "agents": {
+     "claude": {
+      "label": "Claude Code",
+      "glyph": "✻",
+      "colour": "peach",
+      "match": {
+       "agent": [
+        "claude"
+       ],
+       "process": [
+        "claude"
+       ]
+      }
+     },
+     "codex": {
+      "label": "Codex",
+      "glyph": "Λ",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "codex"
+       ],
+       "process": [
+        "codex"
+       ]
+      }
+     },
+     "opencode": {
+      "label": "OpenCode",
+      "glyph": "◇",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "opencode"
+       ],
+       "process": [
+        "opencode"
+       ]
+      }
+     },
+     "gemini": {
+      "label": "Gemini",
+      "glyph": "✦",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "gemini"
+       ],
+       "process": [
+        "gemini"
+       ]
+      }
+     },
+     "hermes": {
+      "label": "Hermes",
+      "glyph": "☤",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "hermes"
+       ],
+       "process": [
+        "hermes"
+       ]
+      }
+     },
+     "aider": {
+      "label": "Aider",
+      "glyph": "◭",
+      "colour": "green",
+      "match": {
+       "agent": [
+        "aider"
+       ],
+       "process": [
+        "aider"
+       ],
+       "title": "^aider\\b"
+      }
+     },
+     "goose": {
+      "label": "Goose",
+      "glyph": "⋎",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "goose"
+       ],
+       "process": [
+        "goose"
+       ]
+      }
+     },
+     "amp": {
+      "label": "Amp",
+      "glyph": "Ʌ",
+      "colour": "red",
+      "match": {
+       "agent": [
+        "amp"
+       ],
+       "process": [
+        "amp"
+       ]
+      }
+     },
+     "cursor": {
+      "label": "Cursor",
+      "glyph": "◆",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "cursor",
+        "cursor-agent"
+       ],
+       "process": [
+        "cursor-agent"
+       ]
+      }
+     },
+     "crush": {
+      "label": "Crush",
+      "glyph": "◉",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "crush"
+       ],
+       "process": [
+        "crush"
+       ]
+      }
+     },
+     "qwen": {
+      "label": "Qwen",
+      "glyph": "Ϙ",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "qwen"
+       ],
+       "process": [
+        "qwen"
+       ]
+      }
+     },
+     "copilot": {
+      "label": "Copilot",
+      "glyph": "⊙",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "copilot"
+       ],
+       "process": [
+        "copilot"
+       ]
+      }
+     },
+     "pi": {
+      "label": "Pi",
+      "glyph": "π",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "pi"
+       ],
+       "process": [
+        "pi"
+       ]
+      }
+     },
+     "kiro": {
+      "label": "Kiro",
+      "glyph": "Ω",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "kiro"
+       ],
+       "process": [
+        "kiro",
+        "kiro-cli"
+       ]
+      }
+     },
+     "droid": {
+      "label": "Droid",
+      "glyph": "◬",
+      "colour": "peach",
+      "match": {
+       "agent": [
+        "droid"
+       ],
+       "process": [
+        "droid"
+       ]
+      }
+     },
+     "cline": {
+      "label": "Cline",
+      "glyph": "∇",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "cline"
+       ],
+       "process": [
+        "cline"
+       ]
+      }
+     },
+     "devin": {
+      "label": "Devin",
+      "glyph": "ꓓ",
+      "colour": "teal",
+      "match": {
+       "agent": [
+        "devin"
+       ],
+       "process": [
+        "devin"
+       ]
+      }
+     },
+     "agy": {
+      "label": "Antigravity",
+      "glyph": "△",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "agy"
+       ],
+       "process": [
+        "agy"
+       ]
+      }
+     },
+     "omp": {
+      "label": "Oh My Pi",
+      "glyph": "Π",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "omp"
+       ],
+       "process": [
+        "omp"
+       ]
+      }
+     },
+     "kimi": {
+      "label": "Kimi",
+      "glyph": "✧",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "kimi"
+       ],
+       "process": [
+        "kimi"
+       ]
+      }
+     },
+     "kilo": {
+      "label": "Kilo",
+      "glyph": "♟",
+      "colour": "yellow",
+      "match": {
+       "agent": [
+        "kilo"
+       ],
+       "process": [
+        "kilo"
+       ]
+      }
+     },
+     "grok": {
+      "label": "Grok",
+      "glyph": "✖",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "grok"
+       ],
+       "process": [
+        "grok"
+       ]
+      }
+     },
+     "mastracode": {
+      "label": "Mastra",
+      "glyph": "∑",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "mastracode"
+       ],
+       "process": [
+        "mastracode"
+       ]
+      }
+     },
+     "qodercli": {
+      "label": "Qoder",
+      "glyph": "Ǫ",
+      "colour": "green",
+      "match": {
+       "agent": [
+        "qodercli"
+       ],
+       "process": [
+        "qodercli"
+       ]
+      }
+     },
+     "letta": {
+      "label": "Letta",
+      "glyph": "λ",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "letta"
+       ],
+       "process": [
+        "letta"
+       ]
+      }
+     },
+     "maki": {
+      "label": "Maki",
+      "glyph": "✳",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "maki"
+       ],
+       "process": [
+        "maki"
+       ]
+      }
+     },
+     "muse": {
+      "label": "Muse",
+      "glyph": "♪",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "muse"
+       ],
+       "process": [
+        "muse"
+       ]
+      }
+     }
+    },
+    "programs": {
+     "neovim": {
+      "label": "neovim",
+      "glyph": "",
+      "text": "ν",
+      "colour": "green",
+      "match": {
+       "process": [
+        "nvim"
+       ]
+      }
+     },
+     "vim": {
+      "label": "vim",
+      "glyph": "",
+      "text": "v",
+      "colour": "green",
+      "match": {
+       "process": [
+        "vim",
+        "vi",
+        "gvim"
+       ]
+      }
+     },
+     "helix": {
+      "label": "helix",
+      "glyph": "ℏ",
+      "text": "ℏ",
+      "colour": "mauve",
+      "match": {
+       "process": [
+        "hx",
+        "helix"
+       ]
+      }
+     },
+     "git": {
+      "label": "git",
+      "glyph": "",
+      "text": "±",
+      "colour": "peach",
+      "match": {
+       "process": [
+        "git",
+        "lazygit",
+        "tig",
+        "gitui"
+       ]
+      }
+     },
+     "ssh": {
+      "label": "ssh",
+      "glyph": "",
+      "text": "⇄",
+      "colour": "teal",
+      "match": {
+       "process": [
+        "ssh",
+        "mosh",
+        "mosh-client"
+       ]
+      }
+     },
+     "python": {
+      "label": "python",
+      "glyph": "",
+      "text": "py",
+      "colour": "blue",
+      "match": {
+       "process": [
+        "python",
+        "python3",
+        "ipython",
+        "uv"
+       ]
+      }
+     },
+     "node": {
+      "label": "node",
+      "glyph": "",
+      "text": "js",
+      "colour": "green",
+      "match": {
+       "process": [
+        "node",
+        "bun",
+        "deno",
+        "npm",
+        "pnpm"
+       ]
+      }
+     },
+     "go": {
+      "label": "go",
+      "glyph": "",
+      "text": "go",
+      "colour": "teal",
+      "match": {
+       "process": [
+        "go"
+       ]
+      }
+     },
+     "cargo": {
+      "label": "cargo",
+      "glyph": "",
+      "text": "rs",
+      "colour": "peach",
+      "match": {
+       "process": [
+        "cargo",
+        "rustc"
+       ]
+      }
+     },
+     "docker": {
+      "label": "docker",
+      "glyph": "",
+      "text": "▣",
+      "colour": "blue",
+      "match": {
+       "process": [
+        "docker",
+        "lazydocker",
+        "podman"
+       ]
+      }
+     },
+     "monitor": {
+      "label": "top",
+      "glyph": "",
+      "text": "▤",
+      "colour": "yellow",
+      "match": {
+       "process": [
+        "btop",
+        "htop",
+        "top"
+       ]
+      }
+     },
+     "files": {
+      "label": "files",
+      "glyph": "",
+      "text": "▭",
+      "colour": "yellow",
+      "match": {
+       "process": [
+        "yazi",
+        "lf",
+        "ranger",
+        "nnn"
+       ]
+      }
+     },
+     "shell": {
+      "label": "shell",
+      "glyph": "",
+      "text": "$",
+      "colour": "overlay1",
+      "hide": true,
+      "match": {
+       "process": [
+        "bash",
+        "zsh",
+        "fish",
+        "sh",
+        "dash",
+        "nu",
+        "elvish",
+        "xonsh"
+       ]
+      }
+     }
+    }
+   },
+   "sidebar": {
+    "night_command": null,
+    "night_below_k": 6000,
+    "night_start": 22,
+    "night_end": 7,
+    "glyphs": "nerd",
+    "fallback_glyph": "◓",
+    "lead_ms": 0
+   }
+  }
+ },
+ {
+  "text": "self = \"ho-oh\"\n",
+  "resolved": {
+   "self": "ho_oh",
+   "mon": "ho_oh",
+   "form": "",
+   "agents": {
+    "agents": {
+     "claude": {
+      "label": "Claude Code",
+      "glyph": "✻",
+      "colour": "peach",
+      "match": {
+       "agent": [
+        "claude"
+       ],
+       "process": [
+        "claude"
+       ]
+      }
+     },
+     "codex": {
+      "label": "Codex",
+      "glyph": "Λ",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "codex"
+       ],
+       "process": [
+        "codex"
+       ]
+      }
+     },
+     "opencode": {
+      "label": "OpenCode",
+      "glyph": "◇",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "opencode"
+       ],
+       "process": [
+        "opencode"
+       ]
+      }
+     },
+     "gemini": {
+      "label": "Gemini",
+      "glyph": "✦",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "gemini"
+       ],
+       "process": [
+        "gemini"
+       ]
+      }
+     },
+     "hermes": {
+      "label": "Hermes",
+      "glyph": "☤",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "hermes"
+       ],
+       "process": [
+        "hermes"
+       ]
+      }
+     },
+     "aider": {
+      "label": "Aider",
+      "glyph": "◭",
+      "colour": "green",
+      "match": {
+       "agent": [
+        "aider"
+       ],
+       "process": [
+        "aider"
+       ],
+       "title": "^aider\\b"
+      }
+     },
+     "goose": {
+      "label": "Goose",
+      "glyph": "⋎",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "goose"
+       ],
+       "process": [
+        "goose"
+       ]
+      }
+     },
+     "amp": {
+      "label": "Amp",
+      "glyph": "Ʌ",
+      "colour": "red",
+      "match": {
+       "agent": [
+        "amp"
+       ],
+       "process": [
+        "amp"
+       ]
+      }
+     },
+     "cursor": {
+      "label": "Cursor",
+      "glyph": "◆",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "cursor",
+        "cursor-agent"
+       ],
+       "process": [
+        "cursor-agent"
+       ]
+      }
+     },
+     "crush": {
+      "label": "Crush",
+      "glyph": "◉",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "crush"
+       ],
+       "process": [
+        "crush"
+       ]
+      }
+     },
+     "qwen": {
+      "label": "Qwen",
+      "glyph": "Ϙ",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "qwen"
+       ],
+       "process": [
+        "qwen"
+       ]
+      }
+     },
+     "copilot": {
+      "label": "Copilot",
+      "glyph": "⊙",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "copilot"
+       ],
+       "process": [
+        "copilot"
+       ]
+      }
+     },
+     "pi": {
+      "label": "Pi",
+      "glyph": "π",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "pi"
+       ],
+       "process": [
+        "pi"
+       ]
+      }
+     },
+     "kiro": {
+      "label": "Kiro",
+      "glyph": "Ω",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "kiro"
+       ],
+       "process": [
+        "kiro",
+        "kiro-cli"
+       ]
+      }
+     },
+     "droid": {
+      "label": "Droid",
+      "glyph": "◬",
+      "colour": "peach",
+      "match": {
+       "agent": [
+        "droid"
+       ],
+       "process": [
+        "droid"
+       ]
+      }
+     },
+     "cline": {
+      "label": "Cline",
+      "glyph": "∇",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "cline"
+       ],
+       "process": [
+        "cline"
+       ]
+      }
+     },
+     "devin": {
+      "label": "Devin",
+      "glyph": "ꓓ",
+      "colour": "teal",
+      "match": {
+       "agent": [
+        "devin"
+       ],
+       "process": [
+        "devin"
+       ]
+      }
+     },
+     "agy": {
+      "label": "Antigravity",
+      "glyph": "△",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "agy"
+       ],
+       "process": [
+        "agy"
+       ]
+      }
+     },
+     "omp": {
+      "label": "Oh My Pi",
+      "glyph": "Π",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "omp"
+       ],
+       "process": [
+        "omp"
+       ]
+      }
+     },
+     "kimi": {
+      "label": "Kimi",
+      "glyph": "✧",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "kimi"
+       ],
+       "process": [
+        "kimi"
+       ]
+      }
+     },
+     "kilo": {
+      "label": "Kilo",
+      "glyph": "♟",
+      "colour": "yellow",
+      "match": {
+       "agent": [
+        "kilo"
+       ],
+       "process": [
+        "kilo"
+       ]
+      }
+     },
+     "grok": {
+      "label": "Grok",
+      "glyph": "✖",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "grok"
+       ],
+       "process": [
+        "grok"
+       ]
+      }
+     },
+     "mastracode": {
+      "label": "Mastra",
+      "glyph": "∑",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "mastracode"
+       ],
+       "process": [
+        "mastracode"
+       ]
+      }
+     },
+     "qodercli": {
+      "label": "Qoder",
+      "glyph": "Ǫ",
+      "colour": "green",
+      "match": {
+       "agent": [
+        "qodercli"
+       ],
+       "process": [
+        "qodercli"
+       ]
+      }
+     },
+     "letta": {
+      "label": "Letta",
+      "glyph": "λ",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "letta"
+       ],
+       "process": [
+        "letta"
+       ]
+      }
+     },
+     "maki": {
+      "label": "Maki",
+      "glyph": "✳",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "maki"
+       ],
+       "process": [
+        "maki"
+       ]
+      }
+     },
+     "muse": {
+      "label": "Muse",
+      "glyph": "♪",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "muse"
+       ],
+       "process": [
+        "muse"
+       ]
+      }
+     }
+    },
+    "programs": {
+     "neovim": {
+      "label": "neovim",
+      "glyph": "",
+      "text": "ν",
+      "colour": "green",
+      "match": {
+       "process": [
+        "nvim"
+       ]
+      }
+     },
+     "vim": {
+      "label": "vim",
+      "glyph": "",
+      "text": "v",
+      "colour": "green",
+      "match": {
+       "process": [
+        "vim",
+        "vi",
+        "gvim"
+       ]
+      }
+     },
+     "helix": {
+      "label": "helix",
+      "glyph": "ℏ",
+      "text": "ℏ",
+      "colour": "mauve",
+      "match": {
+       "process": [
+        "hx",
+        "helix"
+       ]
+      }
+     },
+     "git": {
+      "label": "git",
+      "glyph": "",
+      "text": "±",
+      "colour": "peach",
+      "match": {
+       "process": [
+        "git",
+        "lazygit",
+        "tig",
+        "gitui"
+       ]
+      }
+     },
+     "ssh": {
+      "label": "ssh",
+      "glyph": "",
+      "text": "⇄",
+      "colour": "teal",
+      "match": {
+       "process": [
+        "ssh",
+        "mosh",
+        "mosh-client"
+       ]
+      }
+     },
+     "python": {
+      "label": "python",
+      "glyph": "",
+      "text": "py",
+      "colour": "blue",
+      "match": {
+       "process": [
+        "python",
+        "python3",
+        "ipython",
+        "uv"
+       ]
+      }
+     },
+     "node": {
+      "label": "node",
+      "glyph": "",
+      "text": "js",
+      "colour": "green",
+      "match": {
+       "process": [
+        "node",
+        "bun",
+        "deno",
+        "npm",
+        "pnpm"
+       ]
+      }
+     },
+     "go": {
+      "label": "go",
+      "glyph": "",
+      "text": "go",
+      "colour": "teal",
+      "match": {
+       "process": [
+        "go"
+       ]
+      }
+     },
+     "cargo": {
+      "label": "cargo",
+      "glyph": "",
+      "text": "rs",
+      "colour": "peach",
+      "match": {
+       "process": [
+        "cargo",
+        "rustc"
+       ]
+      }
+     },
+     "docker": {
+      "label": "docker",
+      "glyph": "",
+      "text": "▣",
+      "colour": "blue",
+      "match": {
+       "process": [
+        "docker",
+        "lazydocker",
+        "podman"
+       ]
+      }
+     },
+     "monitor": {
+      "label": "top",
+      "glyph": "",
+      "text": "▤",
+      "colour": "yellow",
+      "match": {
+       "process": [
+        "btop",
+        "htop",
+        "top"
+       ]
+      }
+     },
+     "files": {
+      "label": "files",
+      "glyph": "",
+      "text": "▭",
+      "colour": "yellow",
+      "match": {
+       "process": [
+        "yazi",
+        "lf",
+        "ranger",
+        "nnn"
+       ]
+      }
+     },
+     "shell": {
+      "label": "shell",
+      "glyph": "",
+      "text": "$",
+      "colour": "overlay1",
+      "hide": true,
+      "match": {
+       "process": [
+        "bash",
+        "zsh",
+        "fish",
+        "sh",
+        "dash",
+        "nu",
+        "elvish",
+        "xonsh"
+       ]
+      }
+     }
+    }
+   },
+   "sidebar": {
+    "night_command": null,
+    "night_below_k": 6000,
+    "night_start": 22,
+    "night_end": 7,
+    "glyphs": "nerd",
+    "fallback_glyph": "◓",
+    "lead_ms": 0
+   }
+  }
+ },
+ {
+  "text": "self = \"Deoxys\"\n[[device]]\nname = \"deoxys\"\nform = \"Attack\"\n",
+  "resolved": {
+   "self": "deoxys",
+   "mon": "deoxys-attack",
+   "form": "Attack",
+   "agents": {
+    "agents": {
+     "claude": {
+      "label": "Claude Code",
+      "glyph": "✻",
+      "colour": "peach",
+      "match": {
+       "agent": [
+        "claude"
+       ],
+       "process": [
+        "claude"
+       ]
+      }
+     },
+     "codex": {
+      "label": "Codex",
+      "glyph": "Λ",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "codex"
+       ],
+       "process": [
+        "codex"
+       ]
+      }
+     },
+     "opencode": {
+      "label": "OpenCode",
+      "glyph": "◇",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "opencode"
+       ],
+       "process": [
+        "opencode"
+       ]
+      }
+     },
+     "gemini": {
+      "label": "Gemini",
+      "glyph": "✦",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "gemini"
+       ],
+       "process": [
+        "gemini"
+       ]
+      }
+     },
+     "hermes": {
+      "label": "Hermes",
+      "glyph": "☤",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "hermes"
+       ],
+       "process": [
+        "hermes"
+       ]
+      }
+     },
+     "aider": {
+      "label": "Aider",
+      "glyph": "◭",
+      "colour": "green",
+      "match": {
+       "agent": [
+        "aider"
+       ],
+       "process": [
+        "aider"
+       ],
+       "title": "^aider\\b"
+      }
+     },
+     "goose": {
+      "label": "Goose",
+      "glyph": "⋎",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "goose"
+       ],
+       "process": [
+        "goose"
+       ]
+      }
+     },
+     "amp": {
+      "label": "Amp",
+      "glyph": "Ʌ",
+      "colour": "red",
+      "match": {
+       "agent": [
+        "amp"
+       ],
+       "process": [
+        "amp"
+       ]
+      }
+     },
+     "cursor": {
+      "label": "Cursor",
+      "glyph": "◆",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "cursor",
+        "cursor-agent"
+       ],
+       "process": [
+        "cursor-agent"
+       ]
+      }
+     },
+     "crush": {
+      "label": "Crush",
+      "glyph": "◉",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "crush"
+       ],
+       "process": [
+        "crush"
+       ]
+      }
+     },
+     "qwen": {
+      "label": "Qwen",
+      "glyph": "Ϙ",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "qwen"
+       ],
+       "process": [
+        "qwen"
+       ]
+      }
+     },
+     "copilot": {
+      "label": "Copilot",
+      "glyph": "⊙",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "copilot"
+       ],
+       "process": [
+        "copilot"
+       ]
+      }
+     },
+     "pi": {
+      "label": "Pi",
+      "glyph": "π",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "pi"
+       ],
+       "process": [
+        "pi"
+       ]
+      }
+     },
+     "kiro": {
+      "label": "Kiro",
+      "glyph": "Ω",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "kiro"
+       ],
+       "process": [
+        "kiro",
+        "kiro-cli"
+       ]
+      }
+     },
+     "droid": {
+      "label": "Droid",
+      "glyph": "◬",
+      "colour": "peach",
+      "match": {
+       "agent": [
+        "droid"
+       ],
+       "process": [
+        "droid"
+       ]
+      }
+     },
+     "cline": {
+      "label": "Cline",
+      "glyph": "∇",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "cline"
+       ],
+       "process": [
+        "cline"
+       ]
+      }
+     },
+     "devin": {
+      "label": "Devin",
+      "glyph": "ꓓ",
+      "colour": "teal",
+      "match": {
+       "agent": [
+        "devin"
+       ],
+       "process": [
+        "devin"
+       ]
+      }
+     },
+     "agy": {
+      "label": "Antigravity",
+      "glyph": "△",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "agy"
+       ],
+       "process": [
+        "agy"
+       ]
+      }
+     },
+     "omp": {
+      "label": "Oh My Pi",
+      "glyph": "Π",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "omp"
+       ],
+       "process": [
+        "omp"
+       ]
+      }
+     },
+     "kimi": {
+      "label": "Kimi",
+      "glyph": "✧",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "kimi"
+       ],
+       "process": [
+        "kimi"
+       ]
+      }
+     },
+     "kilo": {
+      "label": "Kilo",
+      "glyph": "♟",
+      "colour": "yellow",
+      "match": {
+       "agent": [
+        "kilo"
+       ],
+       "process": [
+        "kilo"
+       ]
+      }
+     },
+     "grok": {
+      "label": "Grok",
+      "glyph": "✖",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "grok"
+       ],
+       "process": [
+        "grok"
+       ]
+      }
+     },
+     "mastracode": {
+      "label": "Mastra",
+      "glyph": "∑",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "mastracode"
+       ],
+       "process": [
+        "mastracode"
+       ]
+      }
+     },
+     "qodercli": {
+      "label": "Qoder",
+      "glyph": "Ǫ",
+      "colour": "green",
+      "match": {
+       "agent": [
+        "qodercli"
+       ],
+       "process": [
+        "qodercli"
+       ]
+      }
+     },
+     "letta": {
+      "label": "Letta",
+      "glyph": "λ",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "letta"
+       ],
+       "process": [
+        "letta"
+       ]
+      }
+     },
+     "maki": {
+      "label": "Maki",
+      "glyph": "✳",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "maki"
+       ],
+       "process": [
+        "maki"
+       ]
+      }
+     },
+     "muse": {
+      "label": "Muse",
+      "glyph": "♪",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "muse"
+       ],
+       "process": [
+        "muse"
+       ]
+      }
+     }
+    },
+    "programs": {
+     "neovim": {
+      "label": "neovim",
+      "glyph": "",
+      "text": "ν",
+      "colour": "green",
+      "match": {
+       "process": [
+        "nvim"
+       ]
+      }
+     },
+     "vim": {
+      "label": "vim",
+      "glyph": "",
+      "text": "v",
+      "colour": "green",
+      "match": {
+       "process": [
+        "vim",
+        "vi",
+        "gvim"
+       ]
+      }
+     },
+     "helix": {
+      "label": "helix",
+      "glyph": "ℏ",
+      "text": "ℏ",
+      "colour": "mauve",
+      "match": {
+       "process": [
+        "hx",
+        "helix"
+       ]
+      }
+     },
+     "git": {
+      "label": "git",
+      "glyph": "",
+      "text": "±",
+      "colour": "peach",
+      "match": {
+       "process": [
+        "git",
+        "lazygit",
+        "tig",
+        "gitui"
+       ]
+      }
+     },
+     "ssh": {
+      "label": "ssh",
+      "glyph": "",
+      "text": "⇄",
+      "colour": "teal",
+      "match": {
+       "process": [
+        "ssh",
+        "mosh",
+        "mosh-client"
+       ]
+      }
+     },
+     "python": {
+      "label": "python",
+      "glyph": "",
+      "text": "py",
+      "colour": "blue",
+      "match": {
+       "process": [
+        "python",
+        "python3",
+        "ipython",
+        "uv"
+       ]
+      }
+     },
+     "node": {
+      "label": "node",
+      "glyph": "",
+      "text": "js",
+      "colour": "green",
+      "match": {
+       "process": [
+        "node",
+        "bun",
+        "deno",
+        "npm",
+        "pnpm"
+       ]
+      }
+     },
+     "go": {
+      "label": "go",
+      "glyph": "",
+      "text": "go",
+      "colour": "teal",
+      "match": {
+       "process": [
+        "go"
+       ]
+      }
+     },
+     "cargo": {
+      "label": "cargo",
+      "glyph": "",
+      "text": "rs",
+      "colour": "peach",
+      "match": {
+       "process": [
+        "cargo",
+        "rustc"
+       ]
+      }
+     },
+     "docker": {
+      "label": "docker",
+      "glyph": "",
+      "text": "▣",
+      "colour": "blue",
+      "match": {
+       "process": [
+        "docker",
+        "lazydocker",
+        "podman"
+       ]
+      }
+     },
+     "monitor": {
+      "label": "top",
+      "glyph": "",
+      "text": "▤",
+      "colour": "yellow",
+      "match": {
+       "process": [
+        "btop",
+        "htop",
+        "top"
+       ]
+      }
+     },
+     "files": {
+      "label": "files",
+      "glyph": "",
+      "text": "▭",
+      "colour": "yellow",
+      "match": {
+       "process": [
+        "yazi",
+        "lf",
+        "ranger",
+        "nnn"
+       ]
+      }
+     },
+     "shell": {
+      "label": "shell",
+      "glyph": "",
+      "text": "$",
+      "colour": "overlay1",
+      "hide": true,
+      "match": {
+       "process": [
+        "bash",
+        "zsh",
+        "fish",
+        "sh",
+        "dash",
+        "nu",
+        "elvish",
+        "xonsh"
+       ]
+      }
+     }
+    }
+   },
+   "sidebar": {
+    "night_command": null,
+    "night_below_k": 6000,
+    "night_start": 22,
+    "night_end": 7,
+    "glyphs": "nerd",
+    "fallback_glyph": "◓",
+    "lead_ms": 0
+   }
+  }
+ },
+ {
+  "text": "self = \"pikachu\"\n[[device]]\nname = \"Pikachu\"\nmon = \"unown-b\"\nform = \"c\"\n",
+  "resolved": {
+   "self": "pikachu",
+   "mon": "unown_b-c",
+   "form": "c",
+   "agents": {
+    "agents": {
+     "claude": {
+      "label": "Claude Code",
+      "glyph": "✻",
+      "colour": "peach",
+      "match": {
+       "agent": [
+        "claude"
+       ],
+       "process": [
+        "claude"
+       ]
+      }
+     },
+     "codex": {
+      "label": "Codex",
+      "glyph": "Λ",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "codex"
+       ],
+       "process": [
+        "codex"
+       ]
+      }
+     },
+     "opencode": {
+      "label": "OpenCode",
+      "glyph": "◇",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "opencode"
+       ],
+       "process": [
+        "opencode"
+       ]
+      }
+     },
+     "gemini": {
+      "label": "Gemini",
+      "glyph": "✦",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "gemini"
+       ],
+       "process": [
+        "gemini"
+       ]
+      }
+     },
+     "hermes": {
+      "label": "Hermes",
+      "glyph": "☤",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "hermes"
+       ],
+       "process": [
+        "hermes"
+       ]
+      }
+     },
+     "aider": {
+      "label": "Aider",
+      "glyph": "◭",
+      "colour": "green",
+      "match": {
+       "agent": [
+        "aider"
+       ],
+       "process": [
+        "aider"
+       ],
+       "title": "^aider\\b"
+      }
+     },
+     "goose": {
+      "label": "Goose",
+      "glyph": "⋎",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "goose"
+       ],
+       "process": [
+        "goose"
+       ]
+      }
+     },
+     "amp": {
+      "label": "Amp",
+      "glyph": "Ʌ",
+      "colour": "red",
+      "match": {
+       "agent": [
+        "amp"
+       ],
+       "process": [
+        "amp"
+       ]
+      }
+     },
+     "cursor": {
+      "label": "Cursor",
+      "glyph": "◆",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "cursor",
+        "cursor-agent"
+       ],
+       "process": [
+        "cursor-agent"
+       ]
+      }
+     },
+     "crush": {
+      "label": "Crush",
+      "glyph": "◉",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "crush"
+       ],
+       "process": [
+        "crush"
+       ]
+      }
+     },
+     "qwen": {
+      "label": "Qwen",
+      "glyph": "Ϙ",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "qwen"
+       ],
+       "process": [
+        "qwen"
+       ]
+      }
+     },
+     "copilot": {
+      "label": "Copilot",
+      "glyph": "⊙",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "copilot"
+       ],
+       "process": [
+        "copilot"
+       ]
+      }
+     },
+     "pi": {
+      "label": "Pi",
+      "glyph": "π",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "pi"
+       ],
+       "process": [
+        "pi"
+       ]
+      }
+     },
+     "kiro": {
+      "label": "Kiro",
+      "glyph": "Ω",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "kiro"
+       ],
+       "process": [
+        "kiro",
+        "kiro-cli"
+       ]
+      }
+     },
+     "droid": {
+      "label": "Droid",
+      "glyph": "◬",
+      "colour": "peach",
+      "match": {
+       "agent": [
+        "droid"
+       ],
+       "process": [
+        "droid"
+       ]
+      }
+     },
+     "cline": {
+      "label": "Cline",
+      "glyph": "∇",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "cline"
+       ],
+       "process": [
+        "cline"
+       ]
+      }
+     },
+     "devin": {
+      "label": "Devin",
+      "glyph": "ꓓ",
+      "colour": "teal",
+      "match": {
+       "agent": [
+        "devin"
+       ],
+       "process": [
+        "devin"
+       ]
+      }
+     },
+     "agy": {
+      "label": "Antigravity",
+      "glyph": "△",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "agy"
+       ],
+       "process": [
+        "agy"
+       ]
+      }
+     },
+     "omp": {
+      "label": "Oh My Pi",
+      "glyph": "Π",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "omp"
+       ],
+       "process": [
+        "omp"
+       ]
+      }
+     },
+     "kimi": {
+      "label": "Kimi",
+      "glyph": "✧",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "kimi"
+       ],
+       "process": [
+        "kimi"
+       ]
+      }
+     },
+     "kilo": {
+      "label": "Kilo",
+      "glyph": "♟",
+      "colour": "yellow",
+      "match": {
+       "agent": [
+        "kilo"
+       ],
+       "process": [
+        "kilo"
+       ]
+      }
+     },
+     "grok": {
+      "label": "Grok",
+      "glyph": "✖",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "grok"
+       ],
+       "process": [
+        "grok"
+       ]
+      }
+     },
+     "mastracode": {
+      "label": "Mastra",
+      "glyph": "∑",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "mastracode"
+       ],
+       "process": [
+        "mastracode"
+       ]
+      }
+     },
+     "qodercli": {
+      "label": "Qoder",
+      "glyph": "Ǫ",
+      "colour": "green",
+      "match": {
+       "agent": [
+        "qodercli"
+       ],
+       "process": [
+        "qodercli"
+       ]
+      }
+     },
+     "letta": {
+      "label": "Letta",
+      "glyph": "λ",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "letta"
+       ],
+       "process": [
+        "letta"
+       ]
+      }
+     },
+     "maki": {
+      "label": "Maki",
+      "glyph": "✳",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "maki"
+       ],
+       "process": [
+        "maki"
+       ]
+      }
+     },
+     "muse": {
+      "label": "Muse",
+      "glyph": "♪",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "muse"
+       ],
+       "process": [
+        "muse"
+       ]
+      }
+     }
+    },
+    "programs": {
+     "neovim": {
+      "label": "neovim",
+      "glyph": "",
+      "text": "ν",
+      "colour": "green",
+      "match": {
+       "process": [
+        "nvim"
+       ]
+      }
+     },
+     "vim": {
+      "label": "vim",
+      "glyph": "",
+      "text": "v",
+      "colour": "green",
+      "match": {
+       "process": [
+        "vim",
+        "vi",
+        "gvim"
+       ]
+      }
+     },
+     "helix": {
+      "label": "helix",
+      "glyph": "ℏ",
+      "text": "ℏ",
+      "colour": "mauve",
+      "match": {
+       "process": [
+        "hx",
+        "helix"
+       ]
+      }
+     },
+     "git": {
+      "label": "git",
+      "glyph": "",
+      "text": "±",
+      "colour": "peach",
+      "match": {
+       "process": [
+        "git",
+        "lazygit",
+        "tig",
+        "gitui"
+       ]
+      }
+     },
+     "ssh": {
+      "label": "ssh",
+      "glyph": "",
+      "text": "⇄",
+      "colour": "teal",
+      "match": {
+       "process": [
+        "ssh",
+        "mosh",
+        "mosh-client"
+       ]
+      }
+     },
+     "python": {
+      "label": "python",
+      "glyph": "",
+      "text": "py",
+      "colour": "blue",
+      "match": {
+       "process": [
+        "python",
+        "python3",
+        "ipython",
+        "uv"
+       ]
+      }
+     },
+     "node": {
+      "label": "node",
+      "glyph": "",
+      "text": "js",
+      "colour": "green",
+      "match": {
+       "process": [
+        "node",
+        "bun",
+        "deno",
+        "npm",
+        "pnpm"
+       ]
+      }
+     },
+     "go": {
+      "label": "go",
+      "glyph": "",
+      "text": "go",
+      "colour": "teal",
+      "match": {
+       "process": [
+        "go"
+       ]
+      }
+     },
+     "cargo": {
+      "label": "cargo",
+      "glyph": "",
+      "text": "rs",
+      "colour": "peach",
+      "match": {
+       "process": [
+        "cargo",
+        "rustc"
+       ]
+      }
+     },
+     "docker": {
+      "label": "docker",
+      "glyph": "",
+      "text": "▣",
+      "colour": "blue",
+      "match": {
+       "process": [
+        "docker",
+        "lazydocker",
+        "podman"
+       ]
+      }
+     },
+     "monitor": {
+      "label": "top",
+      "glyph": "",
+      "text": "▤",
+      "colour": "yellow",
+      "match": {
+       "process": [
+        "btop",
+        "htop",
+        "top"
+       ]
+      }
+     },
+     "files": {
+      "label": "files",
+      "glyph": "",
+      "text": "▭",
+      "colour": "yellow",
+      "match": {
+       "process": [
+        "yazi",
+        "lf",
+        "ranger",
+        "nnn"
+       ]
+      }
+     },
+     "shell": {
+      "label": "shell",
+      "glyph": "",
+      "text": "$",
+      "colour": "overlay1",
+      "hide": true,
+      "match": {
+       "process": [
+        "bash",
+        "zsh",
+        "fish",
+        "sh",
+        "dash",
+        "nu",
+        "elvish",
+        "xonsh"
+       ]
+      }
+     }
+    }
+   },
+   "sidebar": {
+    "night_command": null,
+    "night_below_k": 6000,
+    "night_start": 22,
+    "night_end": 7,
+    "glyphs": "nerd",
+    "fallback_glyph": "◓",
+    "lead_ms": 0
+   }
+  }
+ },
+ {
+  "text": "self = \"box\"\n[[device]]\nname = \"other\"\nmon = \"onix\"\n",
+  "resolved": {
+   "self": "box",
+   "mon": "geodude",
+   "form": "",
+   "agents": {
+    "agents": {
+     "claude": {
+      "label": "Claude Code",
+      "glyph": "✻",
+      "colour": "peach",
+      "match": {
+       "agent": [
+        "claude"
+       ],
+       "process": [
+        "claude"
+       ]
+      }
+     },
+     "codex": {
+      "label": "Codex",
+      "glyph": "Λ",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "codex"
+       ],
+       "process": [
+        "codex"
+       ]
+      }
+     },
+     "opencode": {
+      "label": "OpenCode",
+      "glyph": "◇",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "opencode"
+       ],
+       "process": [
+        "opencode"
+       ]
+      }
+     },
+     "gemini": {
+      "label": "Gemini",
+      "glyph": "✦",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "gemini"
+       ],
+       "process": [
+        "gemini"
+       ]
+      }
+     },
+     "hermes": {
+      "label": "Hermes",
+      "glyph": "☤",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "hermes"
+       ],
+       "process": [
+        "hermes"
+       ]
+      }
+     },
+     "aider": {
+      "label": "Aider",
+      "glyph": "◭",
+      "colour": "green",
+      "match": {
+       "agent": [
+        "aider"
+       ],
+       "process": [
+        "aider"
+       ],
+       "title": "^aider\\b"
+      }
+     },
+     "goose": {
+      "label": "Goose",
+      "glyph": "⋎",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "goose"
+       ],
+       "process": [
+        "goose"
+       ]
+      }
+     },
+     "amp": {
+      "label": "Amp",
+      "glyph": "Ʌ",
+      "colour": "red",
+      "match": {
+       "agent": [
+        "amp"
+       ],
+       "process": [
+        "amp"
+       ]
+      }
+     },
+     "cursor": {
+      "label": "Cursor",
+      "glyph": "◆",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "cursor",
+        "cursor-agent"
+       ],
+       "process": [
+        "cursor-agent"
+       ]
+      }
+     },
+     "crush": {
+      "label": "Crush",
+      "glyph": "◉",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "crush"
+       ],
+       "process": [
+        "crush"
+       ]
+      }
+     },
+     "qwen": {
+      "label": "Qwen",
+      "glyph": "Ϙ",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "qwen"
+       ],
+       "process": [
+        "qwen"
+       ]
+      }
+     },
+     "copilot": {
+      "label": "Copilot",
+      "glyph": "⊙",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "copilot"
+       ],
+       "process": [
+        "copilot"
+       ]
+      }
+     },
+     "pi": {
+      "label": "Pi",
+      "glyph": "π",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "pi"
+       ],
+       "process": [
+        "pi"
+       ]
+      }
+     },
+     "kiro": {
+      "label": "Kiro",
+      "glyph": "Ω",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "kiro"
+       ],
+       "process": [
+        "kiro",
+        "kiro-cli"
+       ]
+      }
+     },
+     "droid": {
+      "label": "Droid",
+      "glyph": "◬",
+      "colour": "peach",
+      "match": {
+       "agent": [
+        "droid"
+       ],
+       "process": [
+        "droid"
+       ]
+      }
+     },
+     "cline": {
+      "label": "Cline",
+      "glyph": "∇",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "cline"
+       ],
+       "process": [
+        "cline"
+       ]
+      }
+     },
+     "devin": {
+      "label": "Devin",
+      "glyph": "ꓓ",
+      "colour": "teal",
+      "match": {
+       "agent": [
+        "devin"
+       ],
+       "process": [
+        "devin"
+       ]
+      }
+     },
+     "agy": {
+      "label": "Antigravity",
+      "glyph": "△",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "agy"
+       ],
+       "process": [
+        "agy"
+       ]
+      }
+     },
+     "omp": {
+      "label": "Oh My Pi",
+      "glyph": "Π",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "omp"
+       ],
+       "process": [
+        "omp"
+       ]
+      }
+     },
+     "kimi": {
+      "label": "Kimi",
+      "glyph": "✧",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "kimi"
+       ],
+       "process": [
+        "kimi"
+       ]
+      }
+     },
+     "kilo": {
+      "label": "Kilo",
+      "glyph": "♟",
+      "colour": "yellow",
+      "match": {
+       "agent": [
+        "kilo"
+       ],
+       "process": [
+        "kilo"
+       ]
+      }
+     },
+     "grok": {
+      "label": "Grok",
+      "glyph": "✖",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "grok"
+       ],
+       "process": [
+        "grok"
+       ]
+      }
+     },
+     "mastracode": {
+      "label": "Mastra",
+      "glyph": "∑",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "mastracode"
+       ],
+       "process": [
+        "mastracode"
+       ]
+      }
+     },
+     "qodercli": {
+      "label": "Qoder",
+      "glyph": "Ǫ",
+      "colour": "green",
+      "match": {
+       "agent": [
+        "qodercli"
+       ],
+       "process": [
+        "qodercli"
+       ]
+      }
+     },
+     "letta": {
+      "label": "Letta",
+      "glyph": "λ",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "letta"
+       ],
+       "process": [
+        "letta"
+       ]
+      }
+     },
+     "maki": {
+      "label": "Maki",
+      "glyph": "✳",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "maki"
+       ],
+       "process": [
+        "maki"
+       ]
+      }
+     },
+     "muse": {
+      "label": "Muse",
+      "glyph": "♪",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "muse"
+       ],
+       "process": [
+        "muse"
+       ]
+      }
+     }
+    },
+    "programs": {
+     "neovim": {
+      "label": "neovim",
+      "glyph": "",
+      "text": "ν",
+      "colour": "green",
+      "match": {
+       "process": [
+        "nvim"
+       ]
+      }
+     },
+     "vim": {
+      "label": "vim",
+      "glyph": "",
+      "text": "v",
+      "colour": "green",
+      "match": {
+       "process": [
+        "vim",
+        "vi",
+        "gvim"
+       ]
+      }
+     },
+     "helix": {
+      "label": "helix",
+      "glyph": "ℏ",
+      "text": "ℏ",
+      "colour": "mauve",
+      "match": {
+       "process": [
+        "hx",
+        "helix"
+       ]
+      }
+     },
+     "git": {
+      "label": "git",
+      "glyph": "",
+      "text": "±",
+      "colour": "peach",
+      "match": {
+       "process": [
+        "git",
+        "lazygit",
+        "tig",
+        "gitui"
+       ]
+      }
+     },
+     "ssh": {
+      "label": "ssh",
+      "glyph": "",
+      "text": "⇄",
+      "colour": "teal",
+      "match": {
+       "process": [
+        "ssh",
+        "mosh",
+        "mosh-client"
+       ]
+      }
+     },
+     "python": {
+      "label": "python",
+      "glyph": "",
+      "text": "py",
+      "colour": "blue",
+      "match": {
+       "process": [
+        "python",
+        "python3",
+        "ipython",
+        "uv"
+       ]
+      }
+     },
+     "node": {
+      "label": "node",
+      "glyph": "",
+      "text": "js",
+      "colour": "green",
+      "match": {
+       "process": [
+        "node",
+        "bun",
+        "deno",
+        "npm",
+        "pnpm"
+       ]
+      }
+     },
+     "go": {
+      "label": "go",
+      "glyph": "",
+      "text": "go",
+      "colour": "teal",
+      "match": {
+       "process": [
+        "go"
+       ]
+      }
+     },
+     "cargo": {
+      "label": "cargo",
+      "glyph": "",
+      "text": "rs",
+      "colour": "peach",
+      "match": {
+       "process": [
+        "cargo",
+        "rustc"
+       ]
+      }
+     },
+     "docker": {
+      "label": "docker",
+      "glyph": "",
+      "text": "▣",
+      "colour": "blue",
+      "match": {
+       "process": [
+        "docker",
+        "lazydocker",
+        "podman"
+       ]
+      }
+     },
+     "monitor": {
+      "label": "top",
+      "glyph": "",
+      "text": "▤",
+      "colour": "yellow",
+      "match": {
+       "process": [
+        "btop",
+        "htop",
+        "top"
+       ]
+      }
+     },
+     "files": {
+      "label": "files",
+      "glyph": "",
+      "text": "▭",
+      "colour": "yellow",
+      "match": {
+       "process": [
+        "yazi",
+        "lf",
+        "ranger",
+        "nnn"
+       ]
+      }
+     },
+     "shell": {
+      "label": "shell",
+      "glyph": "",
+      "text": "$",
+      "colour": "overlay1",
+      "hide": true,
+      "match": {
+       "process": [
+        "bash",
+        "zsh",
+        "fish",
+        "sh",
+        "dash",
+        "nu",
+        "elvish",
+        "xonsh"
+       ]
+      }
+     }
+    }
+   },
+   "sidebar": {
+    "night_command": null,
+    "night_below_k": 6000,
+    "night_start": 22,
+    "night_end": 7,
+    "glyphs": "nerd",
+    "fallback_glyph": "◓",
+    "lead_ms": 0
+   }
+  }
+ },
+ {
+  "text": "self = \"laptop\"\n[sidebar]\nnight_command = \"\"\nglyphs = \"text\"\nlead_ms = 40\nextra_knob = \"kept\"\n",
+  "resolved": {
+   "self": "laptop",
+   "mon": "magnemite",
+   "form": "",
+   "agents": {
+    "agents": {
+     "claude": {
+      "label": "Claude Code",
+      "glyph": "✻",
+      "colour": "peach",
+      "match": {
+       "agent": [
+        "claude"
+       ],
+       "process": [
+        "claude"
+       ]
+      }
+     },
+     "codex": {
+      "label": "Codex",
+      "glyph": "Λ",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "codex"
+       ],
+       "process": [
+        "codex"
+       ]
+      }
+     },
+     "opencode": {
+      "label": "OpenCode",
+      "glyph": "◇",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "opencode"
+       ],
+       "process": [
+        "opencode"
+       ]
+      }
+     },
+     "gemini": {
+      "label": "Gemini",
+      "glyph": "✦",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "gemini"
+       ],
+       "process": [
+        "gemini"
+       ]
+      }
+     },
+     "hermes": {
+      "label": "Hermes",
+      "glyph": "☤",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "hermes"
+       ],
+       "process": [
+        "hermes"
+       ]
+      }
+     },
+     "aider": {
+      "label": "Aider",
+      "glyph": "◭",
+      "colour": "green",
+      "match": {
+       "agent": [
+        "aider"
+       ],
+       "process": [
+        "aider"
+       ],
+       "title": "^aider\\b"
+      }
+     },
+     "goose": {
+      "label": "Goose",
+      "glyph": "⋎",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "goose"
+       ],
+       "process": [
+        "goose"
+       ]
+      }
+     },
+     "amp": {
+      "label": "Amp",
+      "glyph": "Ʌ",
+      "colour": "red",
+      "match": {
+       "agent": [
+        "amp"
+       ],
+       "process": [
+        "amp"
+       ]
+      }
+     },
+     "cursor": {
+      "label": "Cursor",
+      "glyph": "◆",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "cursor",
+        "cursor-agent"
+       ],
+       "process": [
+        "cursor-agent"
+       ]
+      }
+     },
+     "crush": {
+      "label": "Crush",
+      "glyph": "◉",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "crush"
+       ],
+       "process": [
+        "crush"
+       ]
+      }
+     },
+     "qwen": {
+      "label": "Qwen",
+      "glyph": "Ϙ",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "qwen"
+       ],
+       "process": [
+        "qwen"
+       ]
+      }
+     },
+     "copilot": {
+      "label": "Copilot",
+      "glyph": "⊙",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "copilot"
+       ],
+       "process": [
+        "copilot"
+       ]
+      }
+     },
+     "pi": {
+      "label": "Pi",
+      "glyph": "π",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "pi"
+       ],
+       "process": [
+        "pi"
+       ]
+      }
+     },
+     "kiro": {
+      "label": "Kiro",
+      "glyph": "Ω",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "kiro"
+       ],
+       "process": [
+        "kiro",
+        "kiro-cli"
+       ]
+      }
+     },
+     "droid": {
+      "label": "Droid",
+      "glyph": "◬",
+      "colour": "peach",
+      "match": {
+       "agent": [
+        "droid"
+       ],
+       "process": [
+        "droid"
+       ]
+      }
+     },
+     "cline": {
+      "label": "Cline",
+      "glyph": "∇",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "cline"
+       ],
+       "process": [
+        "cline"
+       ]
+      }
+     },
+     "devin": {
+      "label": "Devin",
+      "glyph": "ꓓ",
+      "colour": "teal",
+      "match": {
+       "agent": [
+        "devin"
+       ],
+       "process": [
+        "devin"
+       ]
+      }
+     },
+     "agy": {
+      "label": "Antigravity",
+      "glyph": "△",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "agy"
+       ],
+       "process": [
+        "agy"
+       ]
+      }
+     },
+     "omp": {
+      "label": "Oh My Pi",
+      "glyph": "Π",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "omp"
+       ],
+       "process": [
+        "omp"
+       ]
+      }
+     },
+     "kimi": {
+      "label": "Kimi",
+      "glyph": "✧",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "kimi"
+       ],
+       "process": [
+        "kimi"
+       ]
+      }
+     },
+     "kilo": {
+      "label": "Kilo",
+      "glyph": "♟",
+      "colour": "yellow",
+      "match": {
+       "agent": [
+        "kilo"
+       ],
+       "process": [
+        "kilo"
+       ]
+      }
+     },
+     "grok": {
+      "label": "Grok",
+      "glyph": "✖",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "grok"
+       ],
+       "process": [
+        "grok"
+       ]
+      }
+     },
+     "mastracode": {
+      "label": "Mastra",
+      "glyph": "∑",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "mastracode"
+       ],
+       "process": [
+        "mastracode"
+       ]
+      }
+     },
+     "qodercli": {
+      "label": "Qoder",
+      "glyph": "Ǫ",
+      "colour": "green",
+      "match": {
+       "agent": [
+        "qodercli"
+       ],
+       "process": [
+        "qodercli"
+       ]
+      }
+     },
+     "letta": {
+      "label": "Letta",
+      "glyph": "λ",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "letta"
+       ],
+       "process": [
+        "letta"
+       ]
+      }
+     },
+     "maki": {
+      "label": "Maki",
+      "glyph": "✳",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "maki"
+       ],
+       "process": [
+        "maki"
+       ]
+      }
+     },
+     "muse": {
+      "label": "Muse",
+      "glyph": "♪",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "muse"
+       ],
+       "process": [
+        "muse"
+       ]
+      }
+     }
+    },
+    "programs": {
+     "neovim": {
+      "label": "neovim",
+      "glyph": "",
+      "text": "ν",
+      "colour": "green",
+      "match": {
+       "process": [
+        "nvim"
+       ]
+      }
+     },
+     "vim": {
+      "label": "vim",
+      "glyph": "",
+      "text": "v",
+      "colour": "green",
+      "match": {
+       "process": [
+        "vim",
+        "vi",
+        "gvim"
+       ]
+      }
+     },
+     "helix": {
+      "label": "helix",
+      "glyph": "ℏ",
+      "text": "ℏ",
+      "colour": "mauve",
+      "match": {
+       "process": [
+        "hx",
+        "helix"
+       ]
+      }
+     },
+     "git": {
+      "label": "git",
+      "glyph": "",
+      "text": "±",
+      "colour": "peach",
+      "match": {
+       "process": [
+        "git",
+        "lazygit",
+        "tig",
+        "gitui"
+       ]
+      }
+     },
+     "ssh": {
+      "label": "ssh",
+      "glyph": "",
+      "text": "⇄",
+      "colour": "teal",
+      "match": {
+       "process": [
+        "ssh",
+        "mosh",
+        "mosh-client"
+       ]
+      }
+     },
+     "python": {
+      "label": "python",
+      "glyph": "",
+      "text": "py",
+      "colour": "blue",
+      "match": {
+       "process": [
+        "python",
+        "python3",
+        "ipython",
+        "uv"
+       ]
+      }
+     },
+     "node": {
+      "label": "node",
+      "glyph": "",
+      "text": "js",
+      "colour": "green",
+      "match": {
+       "process": [
+        "node",
+        "bun",
+        "deno",
+        "npm",
+        "pnpm"
+       ]
+      }
+     },
+     "go": {
+      "label": "go",
+      "glyph": "",
+      "text": "go",
+      "colour": "teal",
+      "match": {
+       "process": [
+        "go"
+       ]
+      }
+     },
+     "cargo": {
+      "label": "cargo",
+      "glyph": "",
+      "text": "rs",
+      "colour": "peach",
+      "match": {
+       "process": [
+        "cargo",
+        "rustc"
+       ]
+      }
+     },
+     "docker": {
+      "label": "docker",
+      "glyph": "",
+      "text": "▣",
+      "colour": "blue",
+      "match": {
+       "process": [
+        "docker",
+        "lazydocker",
+        "podman"
+       ]
+      }
+     },
+     "monitor": {
+      "label": "top",
+      "glyph": "",
+      "text": "▤",
+      "colour": "yellow",
+      "match": {
+       "process": [
+        "btop",
+        "htop",
+        "top"
+       ]
+      }
+     },
+     "files": {
+      "label": "files",
+      "glyph": "",
+      "text": "▭",
+      "colour": "yellow",
+      "match": {
+       "process": [
+        "yazi",
+        "lf",
+        "ranger",
+        "nnn"
+       ]
+      }
+     },
+     "shell": {
+      "label": "shell",
+      "glyph": "",
+      "text": "$",
+      "colour": "overlay1",
+      "hide": true,
+      "match": {
+       "process": [
+        "bash",
+        "zsh",
+        "fish",
+        "sh",
+        "dash",
+        "nu",
+        "elvish",
+        "xonsh"
+       ]
+      }
+     }
+    }
+   },
+   "sidebar": {
+    "night_command": "",
+    "night_below_k": 6000,
+    "night_start": 22,
+    "night_end": 7,
+    "glyphs": "text",
+    "fallback_glyph": "◓",
+    "lead_ms": 40,
+    "extra_knob": "kept"
+   }
+  }
+ },
+ {
+  "text": "self = \"x\"\n[agents.claude]\ncolour = \"mauve\"\n[agents.myagent]\nlabel = \"Mine\"\nglyph = \"◎\"\nprocess = \"my-agent\"\n[agents.neovim]\nlabel = \"nv\"\n[agents.bare]\n[agents.titled]\ntitle = \"^titled\"\nagent = \"titled-id\"\n[agents.matchy]\nmatch = { process = [\"m1\", \"m2\"], title = \"^m\" }\nagent = [\"override\"]\n[agents.shell]\nhide = false\n",
+  "resolved": {
+   "self": "x",
+   "mon": "porygon",
+   "form": "",
+   "agents": {
+    "agents": {
+     "claude": {
+      "label": "Claude Code",
+      "glyph": "✻",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "claude"
+       ],
+       "process": [
+        "claude"
+       ]
+      }
+     },
+     "codex": {
+      "label": "Codex",
+      "glyph": "Λ",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "codex"
+       ],
+       "process": [
+        "codex"
+       ]
+      }
+     },
+     "opencode": {
+      "label": "OpenCode",
+      "glyph": "◇",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "opencode"
+       ],
+       "process": [
+        "opencode"
+       ]
+      }
+     },
+     "gemini": {
+      "label": "Gemini",
+      "glyph": "✦",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "gemini"
+       ],
+       "process": [
+        "gemini"
+       ]
+      }
+     },
+     "hermes": {
+      "label": "Hermes",
+      "glyph": "☤",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "hermes"
+       ],
+       "process": [
+        "hermes"
+       ]
+      }
+     },
+     "aider": {
+      "label": "Aider",
+      "glyph": "◭",
+      "colour": "green",
+      "match": {
+       "agent": [
+        "aider"
+       ],
+       "process": [
+        "aider"
+       ],
+       "title": "^aider\\b"
+      }
+     },
+     "goose": {
+      "label": "Goose",
+      "glyph": "⋎",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "goose"
+       ],
+       "process": [
+        "goose"
+       ]
+      }
+     },
+     "amp": {
+      "label": "Amp",
+      "glyph": "Ʌ",
+      "colour": "red",
+      "match": {
+       "agent": [
+        "amp"
+       ],
+       "process": [
+        "amp"
+       ]
+      }
+     },
+     "cursor": {
+      "label": "Cursor",
+      "glyph": "◆",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "cursor",
+        "cursor-agent"
+       ],
+       "process": [
+        "cursor-agent"
+       ]
+      }
+     },
+     "crush": {
+      "label": "Crush",
+      "glyph": "◉",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "crush"
+       ],
+       "process": [
+        "crush"
+       ]
+      }
+     },
+     "qwen": {
+      "label": "Qwen",
+      "glyph": "Ϙ",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "qwen"
+       ],
+       "process": [
+        "qwen"
+       ]
+      }
+     },
+     "copilot": {
+      "label": "Copilot",
+      "glyph": "⊙",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "copilot"
+       ],
+       "process": [
+        "copilot"
+       ]
+      }
+     },
+     "pi": {
+      "label": "Pi",
+      "glyph": "π",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "pi"
+       ],
+       "process": [
+        "pi"
+       ]
+      }
+     },
+     "kiro": {
+      "label": "Kiro",
+      "glyph": "Ω",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "kiro"
+       ],
+       "process": [
+        "kiro",
+        "kiro-cli"
+       ]
+      }
+     },
+     "droid": {
+      "label": "Droid",
+      "glyph": "◬",
+      "colour": "peach",
+      "match": {
+       "agent": [
+        "droid"
+       ],
+       "process": [
+        "droid"
+       ]
+      }
+     },
+     "cline": {
+      "label": "Cline",
+      "glyph": "∇",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "cline"
+       ],
+       "process": [
+        "cline"
+       ]
+      }
+     },
+     "devin": {
+      "label": "Devin",
+      "glyph": "ꓓ",
+      "colour": "teal",
+      "match": {
+       "agent": [
+        "devin"
+       ],
+       "process": [
+        "devin"
+       ]
+      }
+     },
+     "agy": {
+      "label": "Antigravity",
+      "glyph": "△",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "agy"
+       ],
+       "process": [
+        "agy"
+       ]
+      }
+     },
+     "omp": {
+      "label": "Oh My Pi",
+      "glyph": "Π",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "omp"
+       ],
+       "process": [
+        "omp"
+       ]
+      }
+     },
+     "kimi": {
+      "label": "Kimi",
+      "glyph": "✧",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "kimi"
+       ],
+       "process": [
+        "kimi"
+       ]
+      }
+     },
+     "kilo": {
+      "label": "Kilo",
+      "glyph": "♟",
+      "colour": "yellow",
+      "match": {
+       "agent": [
+        "kilo"
+       ],
+       "process": [
+        "kilo"
+       ]
+      }
+     },
+     "grok": {
+      "label": "Grok",
+      "glyph": "✖",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "grok"
+       ],
+       "process": [
+        "grok"
+       ]
+      }
+     },
+     "mastracode": {
+      "label": "Mastra",
+      "glyph": "∑",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "mastracode"
+       ],
+       "process": [
+        "mastracode"
+       ]
+      }
+     },
+     "qodercli": {
+      "label": "Qoder",
+      "glyph": "Ǫ",
+      "colour": "green",
+      "match": {
+       "agent": [
+        "qodercli"
+       ],
+       "process": [
+        "qodercli"
+       ]
+      }
+     },
+     "letta": {
+      "label": "Letta",
+      "glyph": "λ",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "letta"
+       ],
+       "process": [
+        "letta"
+       ]
+      }
+     },
+     "maki": {
+      "label": "Maki",
+      "glyph": "✳",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "maki"
+       ],
+       "process": [
+        "maki"
+       ]
+      }
+     },
+     "muse": {
+      "label": "Muse",
+      "glyph": "♪",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "muse"
+       ],
+       "process": [
+        "muse"
+       ]
+      }
+     },
+     "myagent": {
+      "label": "Mine",
+      "glyph": "◎",
+      "colour": "text",
+      "match": {
+       "process": [
+        "my-agent"
+       ]
+      }
+     },
+     "bare": {
+      "label": "bare",
+      "glyph": "•",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "bare"
+       ]
+      }
+     },
+     "titled": {
+      "label": "titled",
+      "glyph": "•",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "titled-id"
+       ],
+       "title": "^titled"
+      }
+     },
+     "matchy": {
+      "label": "matchy",
+      "glyph": "•",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "override"
+       ],
+       "process": [
+        "m1",
+        "m2"
+       ],
+       "title": "^m"
+      }
+     }
+    },
+    "programs": {
+     "neovim": {
+      "label": "nv",
+      "glyph": "",
+      "text": "ν",
+      "colour": "green",
+      "match": {
+       "process": [
+        "nvim"
+       ]
+      }
+     },
+     "vim": {
+      "label": "vim",
+      "glyph": "",
+      "text": "v",
+      "colour": "green",
+      "match": {
+       "process": [
+        "vim",
+        "vi",
+        "gvim"
+       ]
+      }
+     },
+     "helix": {
+      "label": "helix",
+      "glyph": "ℏ",
+      "text": "ℏ",
+      "colour": "mauve",
+      "match": {
+       "process": [
+        "hx",
+        "helix"
+       ]
+      }
+     },
+     "git": {
+      "label": "git",
+      "glyph": "",
+      "text": "±",
+      "colour": "peach",
+      "match": {
+       "process": [
+        "git",
+        "lazygit",
+        "tig",
+        "gitui"
+       ]
+      }
+     },
+     "ssh": {
+      "label": "ssh",
+      "glyph": "",
+      "text": "⇄",
+      "colour": "teal",
+      "match": {
+       "process": [
+        "ssh",
+        "mosh",
+        "mosh-client"
+       ]
+      }
+     },
+     "python": {
+      "label": "python",
+      "glyph": "",
+      "text": "py",
+      "colour": "blue",
+      "match": {
+       "process": [
+        "python",
+        "python3",
+        "ipython",
+        "uv"
+       ]
+      }
+     },
+     "node": {
+      "label": "node",
+      "glyph": "",
+      "text": "js",
+      "colour": "green",
+      "match": {
+       "process": [
+        "node",
+        "bun",
+        "deno",
+        "npm",
+        "pnpm"
+       ]
+      }
+     },
+     "go": {
+      "label": "go",
+      "glyph": "",
+      "text": "go",
+      "colour": "teal",
+      "match": {
+       "process": [
+        "go"
+       ]
+      }
+     },
+     "cargo": {
+      "label": "cargo",
+      "glyph": "",
+      "text": "rs",
+      "colour": "peach",
+      "match": {
+       "process": [
+        "cargo",
+        "rustc"
+       ]
+      }
+     },
+     "docker": {
+      "label": "docker",
+      "glyph": "",
+      "text": "▣",
+      "colour": "blue",
+      "match": {
+       "process": [
+        "docker",
+        "lazydocker",
+        "podman"
+       ]
+      }
+     },
+     "monitor": {
+      "label": "top",
+      "glyph": "",
+      "text": "▤",
+      "colour": "yellow",
+      "match": {
+       "process": [
+        "btop",
+        "htop",
+        "top"
+       ]
+      }
+     },
+     "files": {
+      "label": "files",
+      "glyph": "",
+      "text": "▭",
+      "colour": "yellow",
+      "match": {
+       "process": [
+        "yazi",
+        "lf",
+        "ranger",
+        "nnn"
+       ]
+      }
+     },
+     "shell": {
+      "label": "shell",
+      "glyph": "",
+      "text": "$",
+      "colour": "overlay1",
+      "hide": false,
+      "match": {
+       "process": [
+        "bash",
+        "zsh",
+        "fish",
+        "sh",
+        "dash",
+        "nu",
+        "elvish",
+        "xonsh"
+       ]
+      }
+     }
+    }
+   },
+   "sidebar": {
+    "night_command": null,
+    "night_below_k": 6000,
+    "night_start": 22,
+    "night_end": 7,
+    "glyphs": "nerd",
+    "fallback_glyph": "◓",
+    "lead_ms": 0
+   }
+  }
+ },
+ {
+  "text": "self = \"x\"\nagents = { z = \"not a table\", y = { label = \"Y\" } }\n",
+  "resolved": {
+   "self": "x",
+   "mon": "porygon",
+   "form": "",
+   "agents": {
+    "agents": {
+     "claude": {
+      "label": "Claude Code",
+      "glyph": "✻",
+      "colour": "peach",
+      "match": {
+       "agent": [
+        "claude"
+       ],
+       "process": [
+        "claude"
+       ]
+      }
+     },
+     "codex": {
+      "label": "Codex",
+      "glyph": "Λ",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "codex"
+       ],
+       "process": [
+        "codex"
+       ]
+      }
+     },
+     "opencode": {
+      "label": "OpenCode",
+      "glyph": "◇",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "opencode"
+       ],
+       "process": [
+        "opencode"
+       ]
+      }
+     },
+     "gemini": {
+      "label": "Gemini",
+      "glyph": "✦",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "gemini"
+       ],
+       "process": [
+        "gemini"
+       ]
+      }
+     },
+     "hermes": {
+      "label": "Hermes",
+      "glyph": "☤",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "hermes"
+       ],
+       "process": [
+        "hermes"
+       ]
+      }
+     },
+     "aider": {
+      "label": "Aider",
+      "glyph": "◭",
+      "colour": "green",
+      "match": {
+       "agent": [
+        "aider"
+       ],
+       "process": [
+        "aider"
+       ],
+       "title": "^aider\\b"
+      }
+     },
+     "goose": {
+      "label": "Goose",
+      "glyph": "⋎",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "goose"
+       ],
+       "process": [
+        "goose"
+       ]
+      }
+     },
+     "amp": {
+      "label": "Amp",
+      "glyph": "Ʌ",
+      "colour": "red",
+      "match": {
+       "agent": [
+        "amp"
+       ],
+       "process": [
+        "amp"
+       ]
+      }
+     },
+     "cursor": {
+      "label": "Cursor",
+      "glyph": "◆",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "cursor",
+        "cursor-agent"
+       ],
+       "process": [
+        "cursor-agent"
+       ]
+      }
+     },
+     "crush": {
+      "label": "Crush",
+      "glyph": "◉",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "crush"
+       ],
+       "process": [
+        "crush"
+       ]
+      }
+     },
+     "qwen": {
+      "label": "Qwen",
+      "glyph": "Ϙ",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "qwen"
+       ],
+       "process": [
+        "qwen"
+       ]
+      }
+     },
+     "copilot": {
+      "label": "Copilot",
+      "glyph": "⊙",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "copilot"
+       ],
+       "process": [
+        "copilot"
+       ]
+      }
+     },
+     "pi": {
+      "label": "Pi",
+      "glyph": "π",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "pi"
+       ],
+       "process": [
+        "pi"
+       ]
+      }
+     },
+     "kiro": {
+      "label": "Kiro",
+      "glyph": "Ω",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "kiro"
+       ],
+       "process": [
+        "kiro",
+        "kiro-cli"
+       ]
+      }
+     },
+     "droid": {
+      "label": "Droid",
+      "glyph": "◬",
+      "colour": "peach",
+      "match": {
+       "agent": [
+        "droid"
+       ],
+       "process": [
+        "droid"
+       ]
+      }
+     },
+     "cline": {
+      "label": "Cline",
+      "glyph": "∇",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "cline"
+       ],
+       "process": [
+        "cline"
+       ]
+      }
+     },
+     "devin": {
+      "label": "Devin",
+      "glyph": "ꓓ",
+      "colour": "teal",
+      "match": {
+       "agent": [
+        "devin"
+       ],
+       "process": [
+        "devin"
+       ]
+      }
+     },
+     "agy": {
+      "label": "Antigravity",
+      "glyph": "△",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "agy"
+       ],
+       "process": [
+        "agy"
+       ]
+      }
+     },
+     "omp": {
+      "label": "Oh My Pi",
+      "glyph": "Π",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "omp"
+       ],
+       "process": [
+        "omp"
+       ]
+      }
+     },
+     "kimi": {
+      "label": "Kimi",
+      "glyph": "✧",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "kimi"
+       ],
+       "process": [
+        "kimi"
+       ]
+      }
+     },
+     "kilo": {
+      "label": "Kilo",
+      "glyph": "♟",
+      "colour": "yellow",
+      "match": {
+       "agent": [
+        "kilo"
+       ],
+       "process": [
+        "kilo"
+       ]
+      }
+     },
+     "grok": {
+      "label": "Grok",
+      "glyph": "✖",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "grok"
+       ],
+       "process": [
+        "grok"
+       ]
+      }
+     },
+     "mastracode": {
+      "label": "Mastra",
+      "glyph": "∑",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "mastracode"
+       ],
+       "process": [
+        "mastracode"
+       ]
+      }
+     },
+     "qodercli": {
+      "label": "Qoder",
+      "glyph": "Ǫ",
+      "colour": "green",
+      "match": {
+       "agent": [
+        "qodercli"
+       ],
+       "process": [
+        "qodercli"
+       ]
+      }
+     },
+     "letta": {
+      "label": "Letta",
+      "glyph": "λ",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "letta"
+       ],
+       "process": [
+        "letta"
+       ]
+      }
+     },
+     "maki": {
+      "label": "Maki",
+      "glyph": "✳",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "maki"
+       ],
+       "process": [
+        "maki"
+       ]
+      }
+     },
+     "muse": {
+      "label": "Muse",
+      "glyph": "♪",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "muse"
+       ],
+       "process": [
+        "muse"
+       ]
+      }
+     },
+     "y": {
+      "label": "Y",
+      "glyph": "•",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "y"
+       ]
+      }
+     }
+    },
+    "programs": {
+     "neovim": {
+      "label": "neovim",
+      "glyph": "",
+      "text": "ν",
+      "colour": "green",
+      "match": {
+       "process": [
+        "nvim"
+       ]
+      }
+     },
+     "vim": {
+      "label": "vim",
+      "glyph": "",
+      "text": "v",
+      "colour": "green",
+      "match": {
+       "process": [
+        "vim",
+        "vi",
+        "gvim"
+       ]
+      }
+     },
+     "helix": {
+      "label": "helix",
+      "glyph": "ℏ",
+      "text": "ℏ",
+      "colour": "mauve",
+      "match": {
+       "process": [
+        "hx",
+        "helix"
+       ]
+      }
+     },
+     "git": {
+      "label": "git",
+      "glyph": "",
+      "text": "±",
+      "colour": "peach",
+      "match": {
+       "process": [
+        "git",
+        "lazygit",
+        "tig",
+        "gitui"
+       ]
+      }
+     },
+     "ssh": {
+      "label": "ssh",
+      "glyph": "",
+      "text": "⇄",
+      "colour": "teal",
+      "match": {
+       "process": [
+        "ssh",
+        "mosh",
+        "mosh-client"
+       ]
+      }
+     },
+     "python": {
+      "label": "python",
+      "glyph": "",
+      "text": "py",
+      "colour": "blue",
+      "match": {
+       "process": [
+        "python",
+        "python3",
+        "ipython",
+        "uv"
+       ]
+      }
+     },
+     "node": {
+      "label": "node",
+      "glyph": "",
+      "text": "js",
+      "colour": "green",
+      "match": {
+       "process": [
+        "node",
+        "bun",
+        "deno",
+        "npm",
+        "pnpm"
+       ]
+      }
+     },
+     "go": {
+      "label": "go",
+      "glyph": "",
+      "text": "go",
+      "colour": "teal",
+      "match": {
+       "process": [
+        "go"
+       ]
+      }
+     },
+     "cargo": {
+      "label": "cargo",
+      "glyph": "",
+      "text": "rs",
+      "colour": "peach",
+      "match": {
+       "process": [
+        "cargo",
+        "rustc"
+       ]
+      }
+     },
+     "docker": {
+      "label": "docker",
+      "glyph": "",
+      "text": "▣",
+      "colour": "blue",
+      "match": {
+       "process": [
+        "docker",
+        "lazydocker",
+        "podman"
+       ]
+      }
+     },
+     "monitor": {
+      "label": "top",
+      "glyph": "",
+      "text": "▤",
+      "colour": "yellow",
+      "match": {
+       "process": [
+        "btop",
+        "htop",
+        "top"
+       ]
+      }
+     },
+     "files": {
+      "label": "files",
+      "glyph": "",
+      "text": "▭",
+      "colour": "yellow",
+      "match": {
+       "process": [
+        "yazi",
+        "lf",
+        "ranger",
+        "nnn"
+       ]
+      }
+     },
+     "shell": {
+      "label": "shell",
+      "glyph": "",
+      "text": "$",
+      "colour": "overlay1",
+      "hide": true,
+      "match": {
+       "process": [
+        "bash",
+        "zsh",
+        "fish",
+        "sh",
+        "dash",
+        "nu",
+        "elvish",
+        "xonsh"
+       ]
+      }
+     }
+    }
+   },
+   "sidebar": {
+    "night_command": null,
+    "night_below_k": 6000,
+    "night_start": 22,
+    "night_end": 7,
+    "glyphs": "nerd",
+    "fallback_glyph": "◓",
+    "lead_ms": 0
+   }
+  }
+ },
+ {
+  "text": "self = \"x\"\n[[device]]\nname = \"x\"\nmon = \"\"\n",
+  "resolved": {
+   "self": "x",
+   "mon": "porygon",
+   "form": "",
+   "agents": {
+    "agents": {
+     "claude": {
+      "label": "Claude Code",
+      "glyph": "✻",
+      "colour": "peach",
+      "match": {
+       "agent": [
+        "claude"
+       ],
+       "process": [
+        "claude"
+       ]
+      }
+     },
+     "codex": {
+      "label": "Codex",
+      "glyph": "Λ",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "codex"
+       ],
+       "process": [
+        "codex"
+       ]
+      }
+     },
+     "opencode": {
+      "label": "OpenCode",
+      "glyph": "◇",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "opencode"
+       ],
+       "process": [
+        "opencode"
+       ]
+      }
+     },
+     "gemini": {
+      "label": "Gemini",
+      "glyph": "✦",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "gemini"
+       ],
+       "process": [
+        "gemini"
+       ]
+      }
+     },
+     "hermes": {
+      "label": "Hermes",
+      "glyph": "☤",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "hermes"
+       ],
+       "process": [
+        "hermes"
+       ]
+      }
+     },
+     "aider": {
+      "label": "Aider",
+      "glyph": "◭",
+      "colour": "green",
+      "match": {
+       "agent": [
+        "aider"
+       ],
+       "process": [
+        "aider"
+       ],
+       "title": "^aider\\b"
+      }
+     },
+     "goose": {
+      "label": "Goose",
+      "glyph": "⋎",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "goose"
+       ],
+       "process": [
+        "goose"
+       ]
+      }
+     },
+     "amp": {
+      "label": "Amp",
+      "glyph": "Ʌ",
+      "colour": "red",
+      "match": {
+       "agent": [
+        "amp"
+       ],
+       "process": [
+        "amp"
+       ]
+      }
+     },
+     "cursor": {
+      "label": "Cursor",
+      "glyph": "◆",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "cursor",
+        "cursor-agent"
+       ],
+       "process": [
+        "cursor-agent"
+       ]
+      }
+     },
+     "crush": {
+      "label": "Crush",
+      "glyph": "◉",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "crush"
+       ],
+       "process": [
+        "crush"
+       ]
+      }
+     },
+     "qwen": {
+      "label": "Qwen",
+      "glyph": "Ϙ",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "qwen"
+       ],
+       "process": [
+        "qwen"
+       ]
+      }
+     },
+     "copilot": {
+      "label": "Copilot",
+      "glyph": "⊙",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "copilot"
+       ],
+       "process": [
+        "copilot"
+       ]
+      }
+     },
+     "pi": {
+      "label": "Pi",
+      "glyph": "π",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "pi"
+       ],
+       "process": [
+        "pi"
+       ]
+      }
+     },
+     "kiro": {
+      "label": "Kiro",
+      "glyph": "Ω",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "kiro"
+       ],
+       "process": [
+        "kiro",
+        "kiro-cli"
+       ]
+      }
+     },
+     "droid": {
+      "label": "Droid",
+      "glyph": "◬",
+      "colour": "peach",
+      "match": {
+       "agent": [
+        "droid"
+       ],
+       "process": [
+        "droid"
+       ]
+      }
+     },
+     "cline": {
+      "label": "Cline",
+      "glyph": "∇",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "cline"
+       ],
+       "process": [
+        "cline"
+       ]
+      }
+     },
+     "devin": {
+      "label": "Devin",
+      "glyph": "ꓓ",
+      "colour": "teal",
+      "match": {
+       "agent": [
+        "devin"
+       ],
+       "process": [
+        "devin"
+       ]
+      }
+     },
+     "agy": {
+      "label": "Antigravity",
+      "glyph": "△",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "agy"
+       ],
+       "process": [
+        "agy"
+       ]
+      }
+     },
+     "omp": {
+      "label": "Oh My Pi",
+      "glyph": "Π",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "omp"
+       ],
+       "process": [
+        "omp"
+       ]
+      }
+     },
+     "kimi": {
+      "label": "Kimi",
+      "glyph": "✧",
+      "colour": "blue",
+      "match": {
+       "agent": [
+        "kimi"
+       ],
+       "process": [
+        "kimi"
+       ]
+      }
+     },
+     "kilo": {
+      "label": "Kilo",
+      "glyph": "♟",
+      "colour": "yellow",
+      "match": {
+       "agent": [
+        "kilo"
+       ],
+       "process": [
+        "kilo"
+       ]
+      }
+     },
+     "grok": {
+      "label": "Grok",
+      "glyph": "✖",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "grok"
+       ],
+       "process": [
+        "grok"
+       ]
+      }
+     },
+     "mastracode": {
+      "label": "Mastra",
+      "glyph": "∑",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "mastracode"
+       ],
+       "process": [
+        "mastracode"
+       ]
+      }
+     },
+     "qodercli": {
+      "label": "Qoder",
+      "glyph": "Ǫ",
+      "colour": "green",
+      "match": {
+       "agent": [
+        "qodercli"
+       ],
+       "process": [
+        "qodercli"
+       ]
+      }
+     },
+     "letta": {
+      "label": "Letta",
+      "glyph": "λ",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "letta"
+       ],
+       "process": [
+        "letta"
+       ]
+      }
+     },
+     "maki": {
+      "label": "Maki",
+      "glyph": "✳",
+      "colour": "text",
+      "match": {
+       "agent": [
+        "maki"
+       ],
+       "process": [
+        "maki"
+       ]
+      }
+     },
+     "muse": {
+      "label": "Muse",
+      "glyph": "♪",
+      "colour": "mauve",
+      "match": {
+       "agent": [
+        "muse"
+       ],
+       "process": [
+        "muse"
+       ]
+      }
+     }
+    },
+    "programs": {
+     "neovim": {
+      "label": "neovim",
+      "glyph": "",
+      "text": "ν",
+      "colour": "green",
+      "match": {
+       "process": [
+        "nvim"
+       ]
+      }
+     },
+     "vim": {
+      "label": "vim",
+      "glyph": "",
+      "text": "v",
+      "colour": "green",
+      "match": {
+       "process": [
+        "vim",
+        "vi",
+        "gvim"
+       ]
+      }
+     },
+     "helix": {
+      "label": "helix",
+      "glyph": "ℏ",
+      "text": "ℏ",
+      "colour": "mauve",
+      "match": {
+       "process": [
+        "hx",
+        "helix"
+       ]
+      }
+     },
+     "git": {
+      "label": "git",
+      "glyph": "",
+      "text": "±",
+      "colour": "peach",
+      "match": {
+       "process": [
+        "git",
+        "lazygit",
+        "tig",
+        "gitui"
+       ]
+      }
+     },
+     "ssh": {
+      "label": "ssh",
+      "glyph": "",
+      "text": "⇄",
+      "colour": "teal",
+      "match": {
+       "process": [
+        "ssh",
+        "mosh",
+        "mosh-client"
+       ]
+      }
+     },
+     "python": {
+      "label": "python",
+      "glyph": "",
+      "text": "py",
+      "colour": "blue",
+      "match": {
+       "process": [
+        "python",
+        "python3",
+        "ipython",
+        "uv"
+       ]
+      }
+     },
+     "node": {
+      "label": "node",
+      "glyph": "",
+      "text": "js",
+      "colour": "green",
+      "match": {
+       "process": [
+        "node",
+        "bun",
+        "deno",
+        "npm",
+        "pnpm"
+       ]
+      }
+     },
+     "go": {
+      "label": "go",
+      "glyph": "",
+      "text": "go",
+      "colour": "teal",
+      "match": {
+       "process": [
+        "go"
+       ]
+      }
+     },
+     "cargo": {
+      "label": "cargo",
+      "glyph": "",
+      "text": "rs",
+      "colour": "peach",
+      "match": {
+       "process": [
+        "cargo",
+        "rustc"
+       ]
+      }
+     },
+     "docker": {
+      "label": "docker",
+      "glyph": "",
+      "text": "▣",
+      "colour": "blue",
+      "match": {
+       "process": [
+        "docker",
+        "lazydocker",
+        "podman"
+       ]
+      }
+     },
+     "monitor": {
+      "label": "top",
+      "glyph": "",
+      "text": "▤",
+      "colour": "yellow",
+      "match": {
+       "process": [
+        "btop",
+        "htop",
+        "top"
+       ]
+      }
+     },
+     "files": {
+      "label": "files",
+      "glyph": "",
+      "text": "▭",
+      "colour": "yellow",
+      "match": {
+       "process": [
+        "yazi",
+        "lf",
+        "ranger",
+        "nnn"
+       ]
+      }
+     },
+     "shell": {
+      "label": "shell",
+      "glyph": "",
+      "text": "$",
+      "colour": "overlay1",
+      "hide": true,
+      "match": {
+       "process": [
+        "bash",
+        "zsh",
+        "fish",
+        "sh",
+        "dash",
+        "nu",
+        "elvish",
+        "xonsh"
+       ]
+      }
+     }
+    }
+   },
+   "sidebar": {
+    "night_command": null,
+    "night_below_k": 6000,
+    "night_start": 22,
+    "night_end": 7,
+    "glyphs": "nerd",
+    "fallback_glyph": "◓",
+    "lead_ms": 0
+   }
+  }
+ }
+]

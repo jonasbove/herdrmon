@@ -1,0 +1,222 @@
+{
+ "count": 386,
+ "machine": [
+  "porygon",
+  "porygon2",
+  "magnemite",
+  "magneton",
+  "voltorb",
+  "electrode",
+  "geodude",
+  "onix",
+  "beldum",
+  "metang",
+  "baltoy",
+  "claydol",
+  "lunatone",
+  "solrock",
+  "registeel"
+ ],
+ "names": [
+  {
+   "name": "Onix",
+   "slug": "onix",
+   "isSpecies": true,
+   "mon": "onix",
+   "fnv": 449058201
+  },
+  {
+   "name": "ho-oh",
+   "slug": "ho_oh",
+   "isSpecies": true,
+   "mon": "ho_oh",
+   "fnv": 2433227240
+  },
+  {
+   "name": "Ho-Oh",
+   "slug": "ho_oh",
+   "isSpecies": true,
+   "mon": "ho_oh",
+   "fnv": 2859262696
+  },
+  {
+   "name": "Mr. Mime",
+   "slug": "mr_mime",
+   "isSpecies": true,
+   "mon": "mr_mime",
+   "fnv": 3069664128
+  },
+  {
+   "name": "mr_mime",
+   "slug": "mr_mime",
+   "isSpecies": true,
+   "mon": "mr_mime",
+   "fnv": 2601461899
+  },
+  {
+   "name": "  ONIX.local ",
+   "slug": "onix_local",
+   "isSpecies": false,
+   "mon": "geodude",
+   "fnv": 3841700576
+  },
+  {
+   "name": "workstation",
+   "slug": "workstation",
+   "isSpecies": false,
+   "mon": "onix",
+   "fnv": 429378892
+  },
+  {
+   "name": "WorkStation",
+   "slug": "workstation",
+   "isSpecies": false,
+   "mon": "onix",
+   "fnv": 4219009164
+  },
+  {
+   "name": "deoxys",
+   "slug": "deoxys",
+   "isSpecies": true,
+   "mon": "deoxys",
+   "fnv": 1914571917
+  },
+  {
+   "name": "farfetch'd",
+   "slug": "farfetch_d",
+   "isSpecies": false,
+   "mon": "porygon2",
+   "fnv": 1270300673
+  },
+  {
+   "name": "nidoran-f",
+   "slug": "nidoran_f",
+   "isSpecies": true,
+   "mon": "nidoran_f",
+   "fnv": 3622229265
+  },
+  {
+   "name": "pikachu",
+   "slug": "pikachu",
+   "isSpecies": true,
+   "mon": "pikachu",
+   "fnv": 448630920
+  },
+  {
+   "name": "Pikachu",
+   "slug": "pikachu",
+   "isSpecies": true,
+   "mon": "pikachu",
+   "fnv": 1218848808
+  },
+  {
+   "name": "deoxys-attack",
+   "slug": "deoxys_attack",
+   "isSpecies": false,
+   "mon": "lunatone",
+   "fnv": 973217980
+  },
+  {
+   "name": "unown",
+   "slug": "unown",
+   "isSpecies": true,
+   "mon": "unown",
+   "fnv": 2502643026
+  },
+  {
+   "name": "laptop",
+   "slug": "laptop",
+   "isSpecies": false,
+   "mon": "magnemite",
+   "fnv": 1537068077
+  },
+  {
+   "name": "jonas-desktop",
+   "slug": "jonas_desktop",
+   "isSpecies": false,
+   "mon": "solrock",
+   "fnv": 197765589
+  },
+  {
+   "name": "pc",
+   "slug": "pc",
+   "isSpecies": false,
+   "mon": "claydol",
+   "fnv": 1313756516
+  },
+  {
+   "name": "ho-oh.mesh.example.com",
+   "slug": "ho_oh_mesh_example_com",
+   "isSpecies": false,
+   "mon": "onix",
+   "fnv": 211511608
+  },
+  {
+   "name": "émile",
+   "slug": "mile",
+   "isSpecies": false,
+   "mon": "electrode",
+   "fnv": 1984869836
+  },
+  {
+   "name": "",
+   "slug": "",
+   "isSpecies": false,
+   "mon": "porygon2",
+   "fnv": 2166136261
+  },
+  {
+   "name": "___",
+   "slug": "",
+   "isSpecies": false,
+   "mon": "porygon2",
+   "fnv": 73022260
+  },
+  {
+   "name": "a__b",
+   "slug": "a_b",
+   "isSpecies": false,
+   "mon": "magneton",
+   "fnv": 1956365568
+  },
+  {
+   "name": "Server 2",
+   "slug": "server_2",
+   "isSpecies": false,
+   "mon": "claydol",
+   "fnv": 4079505964
+  },
+  {
+   "name": "raspberrypi",
+   "slug": "raspberrypi",
+   "isSpecies": false,
+   "mon": "onix",
+   "fnv": 3013445662
+  },
+  {
+   "name": "DESKTOP-ABC123",
+   "slug": "desktop_abc123",
+   "isSpecies": false,
+   "mon": "geodude",
+   "fnv": 3728479898
+  }
+ ],
+ "sockets": [
+  [
+   "/run/user/1000/herdr.sock",
+   "c5c5ad77"
+  ],
+  [
+   "/home/x/.config/herdr/herdr.sock",
+   "b4326bd1"
+  ],
+  [
+   "a",
+   "e40c292c"
+  ],
+  [
+   "",
+   "811c9dc5"
+  ]
+ ]
+}

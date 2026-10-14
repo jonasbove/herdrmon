@@ -142,6 +142,10 @@ This keeps the current shape and adds a version field:
 
 - It's a standalone Herdr plugin (its own `herdr-plugin.toml`) that coexists with
   stock herdr-radar or with no radar at all.
+- It's one Go binary (`sidebar/`, `package main` in the repo's module, standard
+  library only), built by the manifest's `[[build]]` step. It shares the
+  species table and the default-mon pick with the party menu through
+  `internal/pokedex`.
 - It publishes pane metadata tokens under its own source:
   - `$mon`: the machine's animated Pokémon, on the pane that heads each
     workspace group.
@@ -172,13 +176,13 @@ This keeps the current shape and adds a version field:
   - If the binary or font is missing, the widget offers "Set up" instead, which
     runs `omarchy/install.sh` in a terminal.
 - `omarchy/install.sh` is idempotent and safe to re-run. It:
-  - checks deps (go or a prebuilt binary, uv, node ≥ 18, herdr optional);
+  - checks deps (go or a prebuilt binary, uv, herdr optional);
   - builds/installs the binary to `~/.local/bin`;
   - writes a default `config.toml` if absent;
   - runs fetch and build for the font, then `fc-cache`;
   - adds the font as a fallback in foot / ghostty / kitty / alacritty configs
     where they exist (backup first, managed block markers);
-  - links the sidebar plugin into Herdr if `herdr` exists;
+  - builds the sidebar plugin and links it into Herdr if `herdr` exists;
   - adds an Omarchy menu entry via `~/.config/omarchy/extensions/omarchy-menu.jsonc`
     (managed block) and a Hyprland keybind snippet (default `SUPER ALT, P`) in
     the user's hypr config dir, printed rather than forced if the config isn't
@@ -192,9 +196,9 @@ This keeps the current shape and adds a version field:
   **pinned `fetchFromGitHub` pret/pokeemerald + pokefirered** (fixed hashes) and a
   `mons` list argument (override via `.override { mons = [...]; }`). The art never
   enters this repo, only the derivation.
-- `packages.herdrmon-sidebar`: the plugin directory.
+- `packages.herdrmon-sidebar`: the plugin directory, with its Go binary built.
 - `homeManagerModules.default`: `programs.herdrmon.{enable, settings (→config.toml), mons, sidebar.enable}`.
-- `devShells.default`: go, uv/python+fonttools+pillow+skia-pathops, node.
+- `devShells.default`: go, uv/python+fonttools+pillow+skia-pathops.
 
 ## TUIOS (`docs/tuios.md`)
 

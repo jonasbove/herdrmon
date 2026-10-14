@@ -1,0 +1,2869 @@
+{
+ "runs": [
+  {
+   "anim": "full",
+   "script": [
+    [
+     "pick",
+     "idle",
+     0,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     375,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     500,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1000,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "frame": "bob0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "bob0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "bob1",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "bob0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "full",
+   "script": [
+    [
+     "pick",
+     "blocked",
+     250,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     375,
+     true
+    ],
+    [
+     "pick",
+     "working",
+     0,
+     true
+    ],
+    [
+     "pick",
+     "idle",
+     125,
+     true
+    ],
+    [
+     "pick",
+     "done",
+     625,
+     true
+    ]
+   ],
+   "results": [
+    {
+     "frame": "poison2",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "poison3",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "bob0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "sleep1",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "sleep1",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "full",
+   "script": [
+    [
+     "enqueue",
+     "tackle"
+    ],
+    [
+     "enqueue",
+     "tackle"
+    ],
+    [
+     "pick",
+     "idle",
+     625,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1000,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1099,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1100,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1500,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "queue": [
+      "tackle"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "queue": [
+      "tackle"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "shot": [
+      {
+       "at": 1000,
+       "frame": "tk0"
+      },
+      {
+       "at": 1050,
+       "frame": "tk1"
+      }
+     ],
+     "busy": true,
+     "entry": {
+      "name": "tackle",
+      "done": null
+     },
+     "end": 1100
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": "tackle"
+    },
+    {
+     "hold": true,
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": "tackle"
+    },
+    {
+     "hold": true,
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": "tackle"
+    },
+    {
+     "frame": "bob0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "bob1",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "full",
+   "script": [
+    [
+     "observe",
+     "blocked",
+     true,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     0,
+     false
+    ],
+    [
+     "observe",
+     "idle",
+     true,
+     true
+    ],
+    [
+     "pick",
+     "idle",
+     100,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     650,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1000,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1250,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     2000,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": true,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "frame": "poison0",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": true,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "queue": [
+      "recall",
+      "sendout"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "shot": [
+      {
+       "at": 500,
+       "frame": "rec0"
+      },
+      {
+       "at": 550,
+       "frame": "rec1"
+      },
+      {
+       "at": 600,
+       "frame": "rec2"
+      }
+     ],
+     "busy": true,
+     "entry": {
+      "name": "recall",
+      "done": null
+     },
+     "end": 650
+    },
+    {
+     "queue": [
+      "sendout"
+     ],
+     "parked": "rec2",
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": "recall"
+    },
+    {
+     "shot": [
+      {
+       "at": 1000,
+       "frame": "out0"
+      },
+      {
+       "at": 1050,
+       "frame": "out1"
+      },
+      {
+       "at": 1100,
+       "frame": "out2"
+      }
+     ],
+     "busy": true,
+     "entry": {
+      "name": "sendout",
+      "done": null
+     },
+     "end": 1150
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": "sendout"
+    },
+    {
+     "hold": true,
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": "sendout"
+    },
+    {
+     "frame": "bob0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "frame": "bob0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "full",
+   "script": [
+    [
+     "enqueue",
+     "recall"
+    ],
+    [
+     "pick",
+     "idle",
+     0,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1000,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1500,
+     true
+    ],
+    [
+     "pick",
+     "blocked",
+     1625,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "queue": [
+      "recall"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "shot": [
+      {
+       "at": 0,
+       "frame": "rec0"
+      },
+      {
+       "at": 50,
+       "frame": "rec1"
+      },
+      {
+       "at": 100,
+       "frame": "rec2"
+      }
+     ],
+     "busy": true,
+     "entry": {
+      "name": "recall",
+      "done": null
+     },
+     "end": 150
+    },
+    {
+     "queue": [],
+     "parked": "rec2",
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": "recall"
+    },
+    {
+     "frame": "rec2",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": "rec2",
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "rec2",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": "rec2",
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "poison1",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": "rec2",
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "full",
+   "script": [
+    [
+     "observe",
+     "none",
+     false,
+     false
+    ],
+    [
+     "observe",
+     "idle",
+     true,
+     true
+    ],
+    [
+     "observe",
+     "working",
+     true,
+     true
+    ],
+    [
+     "pick",
+     "working",
+     333,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "queue": [
+      "sendout"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "queue": [
+      "sendout"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "shot": [
+      {
+       "at": 500,
+       "frame": "out0"
+      },
+      {
+       "at": 550,
+       "frame": "out1"
+      },
+      {
+       "at": 600,
+       "frame": "out2"
+      }
+     ],
+     "busy": true,
+     "entry": {
+      "name": "sendout",
+      "done": null
+     },
+     "end": 650
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": "sendout"
+    }
+   ]
+  },
+  {
+   "anim": "full",
+   "script": [
+    [
+     "observe",
+     "idle",
+     true,
+     false
+    ],
+    [
+     "observe",
+     "idle",
+     true,
+     true
+    ]
+   ],
+   "results": [
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "full",
+   "script": [
+    [
+     "enqueue",
+     "harden"
+    ],
+    [
+     "pick",
+     "idle",
+     500,
+     true
+    ],
+    [
+     "pick",
+     "blocked",
+     0,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "queue": [
+      "harden"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "shot": [
+      {
+       "at": 500,
+       "frame": "hd0"
+      },
+      {
+       "at": 550,
+       "frame": "hd1"
+      }
+     ],
+     "busy": true,
+     "entry": {
+      "name": "harden",
+      "done": null
+     },
+     "end": 600
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": "harden"
+    },
+    {
+     "hold": true,
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": "harden"
+    }
+   ]
+  },
+  {
+   "anim": "full",
+   "script": [
+    [
+     "enqueue",
+     "tackle",
+     "request"
+    ],
+    [
+     "enqueue",
+     "tackle",
+     "request"
+    ],
+    [
+     "enqueue",
+     "sendout"
+    ],
+    [
+     "pick",
+     "idle",
+     10,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     400,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     600,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     1100,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     1600,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     1725,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "queue": [
+      "tackle"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "queue": [
+      "tackle",
+      "tackle"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "queue": [
+      "tackle",
+      "tackle",
+      "sendout"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "shot": [
+      {
+       "at": 500,
+       "frame": "tk0"
+      },
+      {
+       "at": 550,
+       "frame": "tk1"
+      }
+     ],
+     "busy": true,
+     "entry": {
+      "name": "tackle",
+      "done": "request"
+     },
+     "end": 600
+    },
+    {
+     "queue": [
+      "tackle",
+      "sendout"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": "tackle"
+    },
+    {
+     "hold": true,
+     "busy": true
+    },
+    {
+     "queue": [
+      "tackle",
+      "sendout"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": "tackle"
+    },
+    {
+     "frame": "poison0",
+     "busy": true
+    },
+    {
+     "queue": [
+      "tackle",
+      "sendout"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "poison0",
+     "busy": true
+    },
+    {
+     "queue": [
+      "tackle",
+      "sendout"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "poison0",
+     "busy": true
+    },
+    {
+     "queue": [
+      "tackle",
+      "sendout"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "poison1",
+     "busy": true
+    },
+    {
+     "queue": [
+      "tackle",
+      "sendout"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "full",
+   "script": [
+    [
+     "pick",
+     "idle",
+     1234567890125,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     1234567890250,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1234567890375,
+     true
+    ]
+   ],
+   "results": [
+    {
+     "frame": "bob0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "poison2",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "sleep3",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "thin",
+   "script": [
+    [
+     "pick",
+     "idle",
+     0,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     375,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     500,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1000,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "frame": "x",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "y",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "thin",
+   "script": [
+    [
+     "pick",
+     "blocked",
+     250,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     375,
+     true
+    ],
+    [
+     "pick",
+     "working",
+     0,
+     true
+    ],
+    [
+     "pick",
+     "idle",
+     125,
+     true
+    ],
+    [
+     "pick",
+     "done",
+     625,
+     true
+    ]
+   ],
+   "results": [
+    {
+     "frame": "x",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "y",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "y",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "thin",
+   "script": [
+    [
+     "enqueue",
+     "tackle"
+    ],
+    [
+     "enqueue",
+     "tackle"
+    ],
+    [
+     "pick",
+     "idle",
+     625,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1000,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1099,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1100,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1500,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "queue": [
+      "tackle"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "queue": [
+      "tackle"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "y",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "y",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "thin",
+   "script": [
+    [
+     "observe",
+     "blocked",
+     true,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     0,
+     false
+    ],
+    [
+     "observe",
+     "idle",
+     true,
+     true
+    ],
+    [
+     "pick",
+     "idle",
+     100,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     650,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1000,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1250,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     2000,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": true,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": true,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "queue": [
+      "recall",
+      "sendout"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "frame": "y",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "thin",
+   "script": [
+    [
+     "enqueue",
+     "recall"
+    ],
+    [
+     "pick",
+     "idle",
+     0,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1000,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1500,
+     true
+    ],
+    [
+     "pick",
+     "blocked",
+     1625,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "queue": [
+      "recall"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "y",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "y",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "thin",
+   "script": [
+    [
+     "observe",
+     "none",
+     false,
+     false
+    ],
+    [
+     "observe",
+     "idle",
+     true,
+     true
+    ],
+    [
+     "observe",
+     "working",
+     true,
+     true
+    ],
+    [
+     "pick",
+     "working",
+     333,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "queue": [
+      "sendout"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "queue": [
+      "sendout"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "thin",
+   "script": [
+    [
+     "observe",
+     "idle",
+     true,
+     false
+    ],
+    [
+     "observe",
+     "idle",
+     true,
+     true
+    ]
+   ],
+   "results": [
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "thin",
+   "script": [
+    [
+     "enqueue",
+     "harden"
+    ],
+    [
+     "pick",
+     "idle",
+     500,
+     true
+    ],
+    [
+     "pick",
+     "blocked",
+     0,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "queue": [
+      "harden"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "y",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "thin",
+   "script": [
+    [
+     "enqueue",
+     "tackle",
+     "request"
+    ],
+    [
+     "enqueue",
+     "tackle",
+     "request"
+    ],
+    [
+     "enqueue",
+     "sendout"
+    ],
+    [
+     "pick",
+     "idle",
+     10,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     400,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     600,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     1100,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     1600,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     1725,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "queue": [
+      "tackle"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "queue": [
+      "tackle",
+      "tackle"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "queue": [
+      "tackle",
+      "tackle",
+      "sendout"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "y",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "y",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "thin",
+   "script": [
+    [
+     "pick",
+     "idle",
+     1234567890125,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     1234567890250,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1234567890375,
+     true
+    ]
+   ],
+   "results": [
+    {
+     "frame": "x",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "x",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "baseonly",
+   "script": [
+    [
+     "pick",
+     "idle",
+     0,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     375,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     500,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1000,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "frame": "b0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "b0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "b1",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "b2",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "baseonly",
+   "script": [
+    [
+     "pick",
+     "blocked",
+     250,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     375,
+     true
+    ],
+    [
+     "pick",
+     "working",
+     0,
+     true
+    ],
+    [
+     "pick",
+     "idle",
+     125,
+     true
+    ],
+    [
+     "pick",
+     "done",
+     625,
+     true
+    ]
+   ],
+   "results": [
+    {
+     "frame": "p2",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "p0",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "b0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "b0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "b1",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "baseonly",
+   "script": [
+    [
+     "enqueue",
+     "tackle"
+    ],
+    [
+     "enqueue",
+     "tackle"
+    ],
+    [
+     "pick",
+     "idle",
+     625,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1000,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1099,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1100,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1500,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "queue": [
+      "tackle"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "queue": [
+      "tackle"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "b1",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "b2",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "b2",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "b2",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "b0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "baseonly",
+   "script": [
+    [
+     "observe",
+     "blocked",
+     true,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     0,
+     false
+    ],
+    [
+     "observe",
+     "idle",
+     true,
+     true
+    ],
+    [
+     "pick",
+     "idle",
+     100,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     650,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1000,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1250,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     2000,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": true,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "frame": "p0",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": true,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "queue": [
+      "recall",
+      "sendout"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "frame": "b0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "frame": "b1",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "frame": "b2",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "frame": "b2",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "frame": "b1",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "baseonly",
+   "script": [
+    [
+     "enqueue",
+     "recall"
+    ],
+    [
+     "pick",
+     "idle",
+     0,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1000,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1500,
+     true
+    ],
+    [
+     "pick",
+     "blocked",
+     1625,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "queue": [
+      "recall"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "b0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "b2",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "b0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "p1",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "baseonly",
+   "script": [
+    [
+     "observe",
+     "none",
+     false,
+     false
+    ],
+    [
+     "observe",
+     "idle",
+     true,
+     true
+    ],
+    [
+     "observe",
+     "working",
+     true,
+     true
+    ],
+    [
+     "pick",
+     "working",
+     333,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "queue": [
+      "sendout"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "queue": [
+      "sendout"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "frame": "b0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "baseonly",
+   "script": [
+    [
+     "observe",
+     "idle",
+     true,
+     false
+    ],
+    [
+     "observe",
+     "idle",
+     true,
+     true
+    ]
+   ],
+   "results": [
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": false,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "baseonly",
+   "script": [
+    [
+     "enqueue",
+     "harden"
+    ],
+    [
+     "pick",
+     "idle",
+     500,
+     true
+    ],
+    [
+     "pick",
+     "blocked",
+     0,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "queue": [
+      "harden"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "b1",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "p0",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "baseonly",
+   "script": [
+    [
+     "enqueue",
+     "tackle",
+     "request"
+    ],
+    [
+     "enqueue",
+     "tackle",
+     "request"
+    ],
+    [
+     "enqueue",
+     "sendout"
+    ],
+    [
+     "pick",
+     "idle",
+     10,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     400,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     600,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     1100,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     1600,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     1725,
+     false
+    ]
+   ],
+   "results": [
+    {
+     "queue": [
+      "tackle"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "queue": [
+      "tackle",
+      "tackle"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "queue": [
+      "tackle",
+      "tackle",
+      "sendout"
+     ],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "b0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "p0",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "p1",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "p2",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "p0",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "p1",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  },
+  {
+   "anim": "baseonly",
+   "script": [
+    [
+     "pick",
+     "idle",
+     1234567890125,
+     false
+    ],
+    [
+     "pick",
+     "blocked",
+     1234567890250,
+     false
+    ],
+    [
+     "pick",
+     "idle",
+     1234567890375,
+     true
+    ]
+   ],
+   "results": [
+    {
+     "frame": "b0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "p2",
+     "busy": true
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    },
+    {
+     "frame": "b0",
+     "busy": false
+    },
+    {
+     "queue": [],
+     "parked": null,
+     "wasBlocked": false,
+     "fresh": true,
+     "shot": null
+    }
+   ]
+  }
+ ],
+ "rollup": [
+  [
+   [],
+   "none"
+  ],
+  [
+   [
+    "idle"
+   ],
+   "idle"
+  ],
+  [
+   [
+    "idle",
+    "blocked",
+    "working"
+   ],
+   "blocked"
+  ],
+  [
+   [
+    "done",
+    "working"
+   ],
+   "working"
+  ],
+  [
+   [
+    "done",
+    "idle"
+   ],
+   "done"
+  ],
+  [
+   [
+    "weird"
+   ],
+   "unknown"
+  ],
+  [
+   [
+    "unknown",
+    "idle"
+   ],
+   "idle"
+  ]
+ ],
+ "boundary": [
+  [
+   [
+    1000,
+    125,
+    260,
+    0
+   ],
+   1375
+  ],
+  [
+   [
+    1000,
+    500,
+    260,
+    1500
+   ],
+   2000
+  ],
+  [
+   [
+    0,
+    500,
+    0,
+    0
+   ],
+   500
+  ],
+  [
+   [
+    1375,
+    125,
+    260,
+    1375
+   ],
+   1750
+  ],
+  [
+   [
+    1999,
+    500,
+    260,
+    0
+   ],
+   2500
+  ],
+  [
+   [
+    1234567890123,
+    125,
+    260,
+    0
+   ],
+   1234567890500
+  ]
+ ]
+}

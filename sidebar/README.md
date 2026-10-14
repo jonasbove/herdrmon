@@ -25,7 +25,9 @@ herdrmon (the party menu and the icon font).
 
 ## Requirements
 
-- Herdr ≥ 0.9.0, Node ≥ 18. There are no npm dependencies and no build step.
+- Herdr ≥ 0.9.0 and Go ≥ 1.26 to build it. The plugin is one Go binary
+  (`bin/herdrmon-sidebar`, standard library only); `herdr plugin install`
+  builds it, offline, with the manifest's `[[build]]` step.
 - For the sprites: the **Herdrmon Icons** font and its `frames.json`, built by
   herdrmon's `font/build.py` (see the repo README). Without them `$mon` falls
   back to a plain `◓`.
@@ -39,11 +41,13 @@ herdr plugin install jonasbove/herdrmon/sidebar
 herdr plugin action invoke jonasbove.herdrmon.configure
 ```
 
-From a checkout:
+From a checkout (`plugin link` doesn't run build steps, so build first):
 
 ```sh
+cd /path/to/herdrmon/sidebar
+CGO_ENABLED=0 go build -trimpath -o bin/herdrmon-sidebar .
 herdr plugin link /path/to/herdrmon/sidebar
-node /path/to/herdrmon/sidebar/bin/configure.js            # print the snippet
+bin/herdrmon-sidebar configure                              # print the snippet
 herdr plugin action invoke jonasbove.herdrmon.configure    # or write it
 herdr plugin action invoke jonasbove.herdrmon.start
 ```
@@ -61,7 +65,7 @@ gets its own daemon, so named sessions work too.
 | `start` / `stop` | Starts or stops the daemon. `stop` clears every token it published. |
 | `demo` | Plays every animation on the focused workspace: send-out, tackle, harden, sleep, poison, then recall and send-out. |
 
-`node bin/configure.js` with no flags only prints. `--write`, `--reload`,
+`bin/herdrmon-sidebar configure` with no flags only prints. `--write`, `--reload`,
 `--uninstall` and `--herdr-config PATH` do what they say; `--no-backup` skips
 the `config.toml.bak.<time>` copy (for callers that keep their own, like
 BovéOS's `bove-theme-sync`, which re-runs `configure` on every theme switch).
@@ -83,8 +87,8 @@ way to extend another table's `rows`.
 ```toml
 [ui.sidebar.agents]
 rows = [
-  [{ token = "$mon", ... }],                       # only on each workspace's head row
-  ["state_icon", "machine", "workspace", "tab"],
+  # $mon only shows on each workspace's head row
+  [{ token = "$mon", ... }, "state_icon", "machine", "workspace", "tab"],
   [{ token = "$agent", ... }, { token = "$tools", ... }],
 ]
 
@@ -180,14 +184,23 @@ A pane matches the first entry whose `match` fits, checked in order:
 ## Development
 
 ```sh
-cd sidebar
-npm test          # node --test test/*.test.js
-npm run check     # node --check on every file
-node tools/gen-data.js species.h state.rs   # regenerate lib/species.json and lib/herdr-palettes.json
+cd sidebar        # CGO_ENABLED=0 where there is no C compiler
+go test .          # unit tests, golden tests against the old Node.js plugin, e2e
+go test -short .   # the same without the ~12 s daemon run against a fake Herdr
+go vet .
+go run ./tools/gen-palettes <herdr>/src/app/state.rs   # regenerate data/herdr-palettes.json
 ```
 
-`lib/species.json` lists the 386 Gen 3 species slugs, from pret's
-`include/constants/species.h`. `lib/herdr-palettes.json` holds Herdr's
-built-in theme colours, from `src/app/state.rs`. Neither contains any art.
+`data/herdr-palettes.json` holds Herdr's built-in theme colours, from
+`src/app/state.rs`. The 386 Gen 3 species slugs and the default-mon pick
+come from `internal/pokedex`, shared with the party menu. Neither contains
+any art.
+
+The plugin was Node.js up to 0.1.0. `testdata/golden/` holds that
+version's answers for the same inputs (TOML parsing and errors, palettes,
+config, agent matching, animation frames, the managed block, every
+`configure` flag on sample configs, and a scripted daemon session against
+a fake Herdr socket), and the Go tests hold this port to them byte for
+byte.
 
 MIT licence.

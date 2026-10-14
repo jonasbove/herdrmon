@@ -1,0 +1,3254 @@
+{
+ "palettes": {
+  "catppuccin": {
+   "accent": "#89b4fa",
+   "overlay0": "#6c7086",
+   "overlay1": "#7f849c",
+   "text": "#cdd6f4",
+   "subtext0": "#a6adc8",
+   "mauve": "#cba6f7",
+   "green": "#a6e3a1",
+   "yellow": "#f9e2af",
+   "red": "#f38ba8",
+   "blue": "#89b4fa",
+   "teal": "#94e2d5",
+   "peach": "#fab387"
+  },
+  "catppuccin-latte": {
+   "accent": "#1e66f5",
+   "overlay0": "#9ca0b0",
+   "overlay1": "#8c8fa1",
+   "text": "#4c4f69",
+   "subtext0": "#6c6f85",
+   "mauve": "#8839ef",
+   "green": "#40a02b",
+   "yellow": "#df8e1d",
+   "red": "#d20f39",
+   "blue": "#1e66f5",
+   "teal": "#179299",
+   "peach": "#fe640b"
+  },
+  "terminal": {
+   "accent": "#0000ee",
+   "overlay0": "#e5e5e5",
+   "overlay1": "#ffffff",
+   "subtext0": "#e5e5e5",
+   "mauve": "#e5e5e5",
+   "green": "#00cd00",
+   "yellow": "#cdcd00",
+   "red": "#ff0000",
+   "blue": "#0000ee",
+   "teal": "#00cdcd",
+   "peach": "#cdcd00"
+  },
+  "tokyo-night": {
+   "accent": "#7aa2f7",
+   "overlay0": "#565f89",
+   "overlay1": "#697196",
+   "text": "#c0caf5",
+   "subtext0": "#a9b1d6",
+   "mauve": "#bb9af7",
+   "green": "#9ece6a",
+   "yellow": "#e0af68",
+   "red": "#f7768e",
+   "blue": "#7aa2f7",
+   "teal": "#7dcfff",
+   "peach": "#ff9e64"
+  },
+  "tokyo-night-day": {
+   "accent": "#2e7de9",
+   "overlay0": "#8990b3",
+   "overlay1": "#68709a",
+   "text": "#3760bf",
+   "subtext0": "#6172b0",
+   "mauve": "#7847bd",
+   "green": "#587539",
+   "yellow": "#8c6c3e",
+   "red": "#f52a65",
+   "blue": "#2e7de9",
+   "teal": "#118c74",
+   "peach": "#b15c00"
+  },
+  "dracula": {
+   "accent": "#bd93f9",
+   "overlay0": "#6272a4",
+   "overlay1": "#828cb4",
+   "text": "#f8f8f2",
+   "subtext0": "#d2d2dc",
+   "mauve": "#ff79c6",
+   "green": "#50fa7b",
+   "yellow": "#f1fa8c",
+   "red": "#ff5555",
+   "blue": "#8be9fd",
+   "teal": "#8be9fd",
+   "peach": "#ffb86c"
+  },
+  "nord": {
+   "accent": "#88c0d0",
+   "overlay0": "#4c566a",
+   "overlay1": "#646e82",
+   "text": "#eceff4",
+   "subtext0": "#d8dee9",
+   "mauve": "#b48ead",
+   "green": "#a3be8c",
+   "yellow": "#ebcb8b",
+   "red": "#bf616a",
+   "blue": "#81a1c1",
+   "teal": "#8fbcbb",
+   "peach": "#d08770"
+  },
+  "gruvbox": {
+   "accent": "#d79921",
+   "overlay0": "#928374",
+   "overlay1": "#a89984",
+   "text": "#ebdbb2",
+   "subtext0": "#d5c4a1",
+   "mauve": "#d3869b",
+   "green": "#b8bb26",
+   "yellow": "#fabd2f",
+   "red": "#fb4934",
+   "blue": "#83a598",
+   "teal": "#8ec07c",
+   "peach": "#fe8019"
+  },
+  "gruvbox-light": {
+   "accent": "#076678",
+   "overlay0": "#928374",
+   "overlay1": "#7c6f64",
+   "text": "#3c3836",
+   "subtext0": "#504945",
+   "mauve": "#8f3f71",
+   "green": "#79740e",
+   "yellow": "#b57614",
+   "red": "#9d0006",
+   "blue": "#076678",
+   "teal": "#427b58",
+   "peach": "#af3a03"
+  },
+  "one-dark": {
+   "accent": "#61afef",
+   "overlay0": "#5c6370",
+   "overlay1": "#737a87",
+   "text": "#abb2bf",
+   "subtext0": "#969ca8",
+   "mauve": "#c678dd",
+   "green": "#98c379",
+   "yellow": "#e5c07b",
+   "red": "#e06c75",
+   "blue": "#61afef",
+   "teal": "#56b6c2",
+   "peach": "#d19a66"
+  },
+  "one-light": {
+   "accent": "#4078f2",
+   "overlay0": "#a0a1a7",
+   "overlay1": "#686b77",
+   "text": "#383a42",
+   "subtext0": "#686b77",
+   "mauve": "#a626a4",
+   "green": "#50a14f",
+   "yellow": "#c18401",
+   "red": "#e45649",
+   "blue": "#4078f2",
+   "teal": "#0184bc",
+   "peach": "#986801"
+  },
+  "solarized": {
+   "accent": "#268bd2",
+   "overlay0": "#586e75",
+   "overlay1": "#657b83",
+   "text": "#93a1a1",
+   "subtext0": "#839496",
+   "mauve": "#d33682",
+   "green": "#859900",
+   "yellow": "#b58900",
+   "red": "#dc322f",
+   "blue": "#268bd2",
+   "teal": "#2aa198",
+   "peach": "#cb4b16"
+  },
+  "solarized-light": {
+   "accent": "#268bd2",
+   "overlay0": "#93a1a1",
+   "overlay1": "#586e75",
+   "text": "#657b83",
+   "subtext0": "#839496",
+   "mauve": "#d33682",
+   "green": "#859900",
+   "yellow": "#b58900",
+   "red": "#dc322f",
+   "blue": "#268bd2",
+   "teal": "#2aa198",
+   "peach": "#cb4b16"
+  },
+  "kanagawa": {
+   "accent": "#7e9cd8",
+   "overlay0": "#727169",
+   "overlay1": "#87867d",
+   "text": "#dcd7ba",
+   "subtext0": "#c8c3aa",
+   "mauve": "#957fb8",
+   "green": "#76946a",
+   "yellow": "#c0a36e",
+   "red": "#c34043",
+   "blue": "#7e9cd8",
+   "teal": "#7fb4ca",
+   "peach": "#ffa066"
+  },
+  "kanagawa-lotus": {
+   "accent": "#4d699b",
+   "overlay0": "#a09cac",
+   "overlay1": "#8a8980",
+   "text": "#545464",
+   "subtext0": "#43436c",
+   "mauve": "#624c83",
+   "green": "#6f894e",
+   "yellow": "#77713f",
+   "red": "#c84053",
+   "blue": "#4d699b",
+   "teal": "#4e8ca2",
+   "peach": "#cc6d00"
+  },
+  "rose-pine": {
+   "accent": "#c4a7e7",
+   "overlay0": "#6e6a86",
+   "overlay1": "#908caa",
+   "text": "#e0def4",
+   "subtext0": "#c8c5dc",
+   "mauve": "#c4a7e7",
+   "green": "#31748f",
+   "yellow": "#f6c177",
+   "red": "#eb6f92",
+   "blue": "#31748f",
+   "teal": "#9ccfd8",
+   "peach": "#ea9a97"
+  },
+  "rose-pine-dawn": {
+   "accent": "#907aa9",
+   "overlay0": "#9893a5",
+   "overlay1": "#797593",
+   "text": "#464261",
+   "subtext0": "#797593",
+   "mauve": "#907aa9",
+   "green": "#286983",
+   "yellow": "#ea9d34",
+   "red": "#b4637a",
+   "blue": "#286983",
+   "teal": "#56949f",
+   "peach": "#d7827e"
+  },
+  "vesper": {
+   "accent": "#ffc799",
+   "overlay0": "#5c5c5c",
+   "overlay1": "#7e7e7e",
+   "text": "#ffffff",
+   "subtext0": "#a0a0a0",
+   "mauve": "#ffd1a8",
+   "green": "#99ffe4",
+   "yellow": "#ffc799",
+   "red": "#ff8080",
+   "blue": "#b0b0b0",
+   "teal": "#66ddcc",
+   "peach": "#ffc799"
+  }
+ },
+ "canonical": [
+  [
+   "catppuccin",
+   "catppuccin"
+  ],
+  [
+   "Catppuccin Mocha",
+   "catppuccin"
+  ],
+  [
+   "catppuccin_mocha",
+   "catppuccin"
+  ],
+  [
+   "latte",
+   "catppuccin-latte"
+  ],
+  [
+   "light",
+   "catppuccin-latte"
+  ],
+  [
+   "tokyonight",
+   "tokyo-night"
+  ],
+  [
+   "Tokyo Day",
+   "tokyo-night-day"
+  ],
+  [
+   "gruvbox-dark",
+   "gruvbox"
+  ],
+  [
+   "onedark",
+   "one-dark"
+  ],
+  [
+   "onelight",
+   "one-light"
+  ],
+  [
+   "solarized-dark",
+   "solarized"
+  ],
+  [
+   "lotus",
+   "kanagawa-lotus"
+  ],
+  [
+   "rosepine",
+   "rose-pine"
+  ],
+  [
+   "rosepine-dawn",
+   "rose-pine-dawn"
+  ],
+  [
+   "dawn",
+   "rose-pine-dawn"
+  ],
+  [
+   "nope",
+   null
+  ],
+  [
+   "",
+   null
+  ],
+  [
+   "VESPER",
+   "vesper"
+  ],
+  [
+   "terminal",
+   "terminal"
+  ],
+  [
+   "dracula",
+   "dracula"
+  ],
+  [
+   "kanagawa lotus",
+   "kanagawa-lotus"
+  ]
+ ],
+ "themes": [
+  {
+   "name": "empty",
+   "theme": {
+    "name": "catppuccin",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#89b4fa",
+    "overlay0": "#6c7086",
+    "overlay1": "#7f849c",
+    "text": "#cdd6f4",
+    "subtext0": "#a6adc8",
+    "mauve": "#cba6f7",
+    "green": "#a6e3a1",
+    "yellow": "#f9e2af",
+    "red": "#f38ba8",
+    "blue": "#89b4fa",
+    "teal": "#94e2d5",
+    "peach": "#fab387"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#fab387"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#94e2d5"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#f38ba8"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#f9e2af"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#a6e3a1"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#cba6f7"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#7f849c"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#6c7086"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#a6adc8"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#cdd6f4"
+    }
+   ]
+  },
+  {
+   "name": "basic",
+   "theme": {
+    "name": "catppuccin",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#89b4fa",
+    "overlay0": "#6c7086",
+    "overlay1": "#7f849c",
+    "text": "#cdd6f4",
+    "subtext0": "#a6adc8",
+    "mauve": "#cba6f7",
+    "green": "#a6e3a1",
+    "yellow": "#f9e2af",
+    "red": "#f38ba8",
+    "blue": "#89b4fa",
+    "teal": "#94e2d5",
+    "peach": "#fab387"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#fab387"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#94e2d5"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#f38ba8"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#f9e2af"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#a6e3a1"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#cba6f7"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#7f849c"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#6c7086"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#a6adc8"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#cdd6f4"
+    }
+   ]
+  },
+  {
+   "name": "nord_custom",
+   "theme": {
+    "name": "nord",
+    "custom": {
+     "peach": "#123456",
+     "red": "red",
+     "teal": "#abc"
+    }
+   },
+   "resolved": {
+    "accent": "#88c0d0",
+    "overlay0": "#4c566a",
+    "overlay1": "#646e82",
+    "text": "#eceff4",
+    "subtext0": "#d8dee9",
+    "mauve": "#b48ead",
+    "green": "#a3be8c",
+    "yellow": "#ebcb8b",
+    "red": "#bf616a",
+    "blue": "#81a1c1",
+    "teal": "#abc",
+    "peach": "#123456"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#123456"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#abc"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#81a1c1"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#bf616a"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#ebcb8b"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#a3be8c"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#b48ead"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#88c0d0"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#646e82"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#4c566a"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#d8dee9"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#eceff4"
+    }
+   ]
+  },
+  {
+   "name": "auto_dark",
+   "theme": {
+    "name": "gruvbox",
+    "custom": {
+     "green": "#010203",
+     "teal": "#000"
+    }
+   },
+   "resolved": {
+    "accent": "#d79921",
+    "overlay0": "#928374",
+    "overlay1": "#a89984",
+    "text": "#ebdbb2",
+    "subtext0": "#d5c4a1",
+    "mauve": "#d3869b",
+    "green": "#010203",
+    "yellow": "#fabd2f",
+    "red": "#fb4934",
+    "blue": "#83a598",
+    "teal": "#000",
+    "peach": "#fe8019"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#fe8019"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#000"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#83a598"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#fb4934"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#fabd2f"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#010203"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#d3869b"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#d79921"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#a89984"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#928374"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#d5c4a1"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#ebdbb2"
+    }
+   ]
+  },
+  {
+   "name": "auto_sibling",
+   "theme": {
+    "name": "catppuccin",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#89b4fa",
+    "overlay0": "#6c7086",
+    "overlay1": "#7f849c",
+    "text": "#cdd6f4",
+    "subtext0": "#a6adc8",
+    "mauve": "#cba6f7",
+    "green": "#a6e3a1",
+    "yellow": "#f9e2af",
+    "red": "#f38ba8",
+    "blue": "#89b4fa",
+    "teal": "#94e2d5",
+    "peach": "#fab387"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#fab387"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#94e2d5"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#f38ba8"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#f9e2af"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#a6e3a1"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#cba6f7"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#7f849c"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#6c7086"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#a6adc8"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#cdd6f4"
+    }
+   ]
+  },
+  {
+   "name": "auto_unknown",
+   "theme": {
+    "name": "Mystery Theme",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#89b4fa",
+    "overlay0": "#6c7086",
+    "overlay1": "#7f849c",
+    "text": "#cdd6f4",
+    "subtext0": "#a6adc8",
+    "mauve": "#cba6f7",
+    "green": "#a6e3a1",
+    "yellow": "#f9e2af",
+    "red": "#f38ba8",
+    "blue": "#89b4fa",
+    "teal": "#94e2d5",
+    "peach": "#fab387"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#fab387"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#94e2d5"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#f38ba8"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#f9e2af"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#a6e3a1"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#cba6f7"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#7f849c"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#6c7086"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#a6adc8"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#cdd6f4"
+    }
+   ]
+  },
+  {
+   "name": "terminal",
+   "theme": {
+    "name": "terminal",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#0000ee",
+    "overlay0": "#e5e5e5",
+    "overlay1": "#ffffff",
+    "subtext0": "#e5e5e5",
+    "mauve": "#e5e5e5",
+    "green": "#00cd00",
+    "yellow": "#cdcd00",
+    "red": "#ff0000",
+    "blue": "#0000ee",
+    "teal": "#00cdcd",
+    "peach": "#cdcd00"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#cdcd00"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#00cdcd"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#0000ee"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#ff0000"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#cdcd00"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#00cd00"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#e5e5e5"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#0000ee"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#ffffff"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#e5e5e5"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#e5e5e5"
+    }
+   ]
+  },
+  {
+   "name": "alias",
+   "theme": {
+    "name": "Rose Pine Dawn",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#907aa9",
+    "overlay0": "#9893a5",
+    "overlay1": "#797593",
+    "text": "#464261",
+    "subtext0": "#797593",
+    "mauve": "#907aa9",
+    "green": "#286983",
+    "yellow": "#ea9d34",
+    "red": "#b4637a",
+    "blue": "#286983",
+    "teal": "#56949f",
+    "peach": "#d7827e"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#d7827e"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#56949f"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#286983"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#b4637a"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#ea9d34"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#286983"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#907aa9"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#907aa9"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#797593"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#9893a5"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#797593"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#464261"
+    }
+   ]
+  },
+  {
+   "name": "unknown",
+   "theme": {
+    "name": "nope",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#89b4fa",
+    "overlay0": "#6c7086",
+    "overlay1": "#7f849c",
+    "text": "#cdd6f4",
+    "subtext0": "#a6adc8",
+    "mauve": "#cba6f7",
+    "green": "#a6e3a1",
+    "yellow": "#f9e2af",
+    "red": "#f38ba8",
+    "blue": "#89b4fa",
+    "teal": "#94e2d5",
+    "peach": "#fab387"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#fab387"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#94e2d5"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#f38ba8"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#f9e2af"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#a6e3a1"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#cba6f7"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#7f849c"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#6c7086"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#a6adc8"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#cdd6f4"
+    }
+   ]
+  },
+  {
+   "name": "no_theme",
+   "theme": {
+    "name": "catppuccin",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#89b4fa",
+    "overlay0": "#6c7086",
+    "overlay1": "#7f849c",
+    "text": "#cdd6f4",
+    "subtext0": "#a6adc8",
+    "mauve": "#cba6f7",
+    "green": "#a6e3a1",
+    "yellow": "#f9e2af",
+    "red": "#f38ba8",
+    "blue": "#89b4fa",
+    "teal": "#94e2d5",
+    "peach": "#fab387"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#fab387"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#94e2d5"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#f38ba8"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#f9e2af"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#a6e3a1"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#cba6f7"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#7f849c"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#6c7086"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#a6adc8"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#cdd6f4"
+    }
+   ]
+  },
+  {
+   "name": "bove",
+   "theme": {
+    "name": "gruvbox",
+    "custom": {
+     "accent": "#7daea3",
+     "panel_bg": "#282828",
+     "sidebar_bg": "reset",
+     "overlay0": "#7c7160",
+     "overlay1": "#958770",
+     "text": "#d4be98",
+     "subtext0": "#bdae93",
+     "mauve": "#d3869b",
+     "green": "#a9b665",
+     "yellow": "#d8a657",
+     "red": "#ea6962",
+     "blue": "#7daea3",
+     "teal": "#89b482",
+     "peach": "#e1875c"
+    }
+   },
+   "resolved": {
+    "accent": "#7daea3",
+    "overlay0": "#7c7160",
+    "overlay1": "#958770",
+    "text": "#d4be98",
+    "subtext0": "#bdae93",
+    "mauve": "#d3869b",
+    "green": "#a9b665",
+    "yellow": "#d8a657",
+    "red": "#ea6962",
+    "blue": "#7daea3",
+    "teal": "#89b482",
+    "peach": "#e1875c"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#e1875c"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#89b482"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#7daea3"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#ea6962"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#d8a657"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#a9b665"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#d3869b"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#7daea3"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#958770"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#7c7160"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#bdae93"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#d4be98"
+    }
+   ]
+  },
+  {
+   "name": "radar",
+   "theme": {
+    "name": "tokyo-night",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#7aa2f7",
+    "overlay0": "#565f89",
+    "overlay1": "#697196",
+    "text": "#c0caf5",
+    "subtext0": "#a9b1d6",
+    "mauve": "#bb9af7",
+    "green": "#9ece6a",
+    "yellow": "#e0af68",
+    "red": "#f7768e",
+    "blue": "#7aa2f7",
+    "teal": "#7dcfff",
+    "peach": "#ff9e64"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#ff9e64"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#7dcfff"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#7aa2f7"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#f7768e"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#e0af68"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#9ece6a"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#bb9af7"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#7aa2f7"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#697196"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#565f89"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#a9b1d6"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#c0caf5"
+    }
+   ]
+  },
+  {
+   "name": "radar_both",
+   "theme": {
+    "name": "tokyo-night",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#7aa2f7",
+    "overlay0": "#565f89",
+    "overlay1": "#697196",
+    "text": "#c0caf5",
+    "subtext0": "#a9b1d6",
+    "mauve": "#bb9af7",
+    "green": "#9ece6a",
+    "yellow": "#e0af68",
+    "red": "#f7768e",
+    "blue": "#7aa2f7",
+    "teal": "#7dcfff",
+    "peach": "#ff9e64"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#ff9e64"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#7dcfff"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#7aa2f7"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#f7768e"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#e0af68"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#9ece6a"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#bb9af7"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#7aa2f7"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#697196"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#565f89"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#a9b1d6"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#c0caf5"
+    }
+   ]
+  },
+  {
+   "name": "radar_dotted",
+   "theme": {
+    "name": "catppuccin",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#89b4fa",
+    "overlay0": "#6c7086",
+    "overlay1": "#7f849c",
+    "text": "#cdd6f4",
+    "subtext0": "#a6adc8",
+    "mauve": "#cba6f7",
+    "green": "#a6e3a1",
+    "yellow": "#f9e2af",
+    "red": "#f38ba8",
+    "blue": "#89b4fa",
+    "teal": "#94e2d5",
+    "peach": "#fab387"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#fab387"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#94e2d5"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#f38ba8"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#f9e2af"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#a6e3a1"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#cba6f7"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#7f849c"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#6c7086"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#a6adc8"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#cdd6f4"
+    }
+   ]
+  },
+  {
+   "name": "broken",
+   "theme": {
+    "name": "dracula",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#bd93f9",
+    "overlay0": "#6272a4",
+    "overlay1": "#828cb4",
+    "text": "#f8f8f2",
+    "subtext0": "#d2d2dc",
+    "mauve": "#ff79c6",
+    "green": "#50fa7b",
+    "yellow": "#f1fa8c",
+    "red": "#ff5555",
+    "blue": "#8be9fd",
+    "teal": "#8be9fd",
+    "peach": "#ffb86c"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#ffb86c"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#8be9fd"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#8be9fd"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#ff5555"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#f1fa8c"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#50fa7b"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#ff79c6"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#bd93f9"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#828cb4"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#6272a4"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#d2d2dc"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#f8f8f2"
+    }
+   ]
+  },
+  {
+   "name": "broken_noname",
+   "theme": {
+    "name": "catppuccin",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#89b4fa",
+    "overlay0": "#6c7086",
+    "overlay1": "#7f849c",
+    "text": "#cdd6f4",
+    "subtext0": "#a6adc8",
+    "mauve": "#cba6f7",
+    "green": "#a6e3a1",
+    "yellow": "#f9e2af",
+    "red": "#f38ba8",
+    "blue": "#89b4fa",
+    "teal": "#94e2d5",
+    "peach": "#fab387"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#fab387"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#94e2d5"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#f38ba8"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#f9e2af"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#a6e3a1"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#cba6f7"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#7f849c"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#6c7086"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#a6adc8"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#cdd6f4"
+    }
+   ]
+  },
+  {
+   "name": "crlf",
+   "theme": {
+    "name": "one-dark",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#61afef",
+    "overlay0": "#5c6370",
+    "overlay1": "#737a87",
+    "text": "#abb2bf",
+    "subtext0": "#969ca8",
+    "mauve": "#c678dd",
+    "green": "#98c379",
+    "yellow": "#e5c07b",
+    "red": "#e06c75",
+    "blue": "#61afef",
+    "teal": "#56b6c2",
+    "peach": "#d19a66"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#d19a66"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#56b6c2"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#61afef"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#e06c75"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#e5c07b"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#98c379"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#c678dd"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#61afef"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#737a87"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#5c6370"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#969ca8"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#abb2bf"
+    }
+   ]
+  },
+  {
+   "name": "block_only",
+   "theme": {
+    "name": "catppuccin",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#89b4fa",
+    "overlay0": "#6c7086",
+    "overlay1": "#7f849c",
+    "text": "#cdd6f4",
+    "subtext0": "#a6adc8",
+    "mauve": "#cba6f7",
+    "green": "#a6e3a1",
+    "yellow": "#f9e2af",
+    "red": "#f38ba8",
+    "blue": "#89b4fa",
+    "teal": "#94e2d5",
+    "peach": "#fab387"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#fab387"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#94e2d5"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#f38ba8"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#f9e2af"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#a6e3a1"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#cba6f7"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#7f849c"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#6c7086"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#a6adc8"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#cdd6f4"
+    }
+   ]
+  },
+  {
+   "name": "block_middle",
+   "theme": {
+    "name": "vesper",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#ffc799",
+    "overlay0": "#5c5c5c",
+    "overlay1": "#7e7e7e",
+    "text": "#ffffff",
+    "subtext0": "#a0a0a0",
+    "mauve": "#ffd1a8",
+    "green": "#99ffe4",
+    "yellow": "#ffc799",
+    "red": "#ff8080",
+    "blue": "#b0b0b0",
+    "teal": "#66ddcc",
+    "peach": "#ffc799"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#ffc799"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#66ddcc"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#b0b0b0"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#ff8080"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#ffc799"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#99ffe4"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#ffd1a8"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#ffc799"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#7e7e7e"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#5c5c5c"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#a0a0a0"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#ffffff"
+    }
+   ]
+  },
+  {
+   "name": "block_unterminated",
+   "theme": {
+    "name": "dracula",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#bd93f9",
+    "overlay0": "#6272a4",
+    "overlay1": "#828cb4",
+    "text": "#f8f8f2",
+    "subtext0": "#d2d2dc",
+    "mauve": "#ff79c6",
+    "green": "#50fa7b",
+    "yellow": "#f1fa8c",
+    "red": "#ff5555",
+    "blue": "#8be9fd",
+    "teal": "#8be9fd",
+    "peach": "#ffb86c"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#ffb86c"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#8be9fd"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#8be9fd"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#ff5555"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#f1fa8c"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#50fa7b"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#ff79c6"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#bd93f9"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#828cb4"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#6272a4"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#d2d2dc"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#f8f8f2"
+    }
+   ]
+  },
+  {
+   "name": "no_trailing_nl",
+   "theme": {
+    "name": "kanagawa",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#7e9cd8",
+    "overlay0": "#727169",
+    "overlay1": "#87867d",
+    "text": "#dcd7ba",
+    "subtext0": "#c8c3aa",
+    "mauve": "#957fb8",
+    "green": "#76946a",
+    "yellow": "#c0a36e",
+    "red": "#c34043",
+    "blue": "#7e9cd8",
+    "teal": "#7fb4ca",
+    "peach": "#ffa066"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#ffa066"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#7fb4ca"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#7e9cd8"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#c34043"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#c0a36e"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#76946a"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#957fb8"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#7e9cd8"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#87867d"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#727169"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#c8c3aa"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#dcd7ba"
+    }
+   ]
+  },
+  {
+   "name": "leading_blank",
+   "theme": {
+    "name": "solarized",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#268bd2",
+    "overlay0": "#586e75",
+    "overlay1": "#657b83",
+    "text": "#93a1a1",
+    "subtext0": "#839496",
+    "mauve": "#d33682",
+    "green": "#859900",
+    "yellow": "#b58900",
+    "red": "#dc322f",
+    "blue": "#268bd2",
+    "teal": "#2aa198",
+    "peach": "#cb4b16"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#cb4b16"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#2aa198"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#268bd2"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#dc322f"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#b58900"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#859900"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#d33682"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#268bd2"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#657b83"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#586e75"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#839496"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#93a1a1"
+    }
+   ]
+  },
+  {
+   "name": "indented_markers",
+   "theme": {
+    "name": "catppuccin",
+    "custom": {}
+   },
+   "resolved": {
+    "accent": "#89b4fa",
+    "overlay0": "#6c7086",
+    "overlay1": "#7f849c",
+    "text": "#cdd6f4",
+    "subtext0": "#a6adc8",
+    "mauve": "#cba6f7",
+    "green": "#a6e3a1",
+    "yellow": "#f9e2af",
+    "red": "#f38ba8",
+    "blue": "#89b4fa",
+    "teal": "#94e2d5",
+    "peach": "#fab387"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#fab387"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#94e2d5"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#f38ba8"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#f9e2af"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#a6e3a1"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#cba6f7"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#7f849c"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#6c7086"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#a6adc8"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#cdd6f4"
+    }
+   ]
+  }
+ ],
+ "builtins": [
+  {
+   "name": "catppuccin",
+   "resolved": {
+    "accent": "#89b4fa",
+    "overlay0": "#6c7086",
+    "overlay1": "#7f849c",
+    "text": "#cdd6f4",
+    "subtext0": "#a6adc8",
+    "mauve": "#cba6f7",
+    "green": "#a6e3a1",
+    "yellow": "#f9e2af",
+    "red": "#f38ba8",
+    "blue": "#89b4fa",
+    "teal": "#94e2d5",
+    "peach": "#fab387"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#fab387"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#94e2d5"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#f38ba8"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#f9e2af"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#a6e3a1"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#cba6f7"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#89b4fa"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#7f849c"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#6c7086"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#a6adc8"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#cdd6f4"
+    }
+   ]
+  },
+  {
+   "name": "catppuccin-latte",
+   "resolved": {
+    "accent": "#1e66f5",
+    "overlay0": "#9ca0b0",
+    "overlay1": "#8c8fa1",
+    "text": "#4c4f69",
+    "subtext0": "#6c6f85",
+    "mauve": "#8839ef",
+    "green": "#40a02b",
+    "yellow": "#df8e1d",
+    "red": "#d20f39",
+    "blue": "#1e66f5",
+    "teal": "#179299",
+    "peach": "#fe640b"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#fe640b"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#179299"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#1e66f5"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#d20f39"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#df8e1d"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#40a02b"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#8839ef"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#1e66f5"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#8c8fa1"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#9ca0b0"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#6c6f85"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#4c4f69"
+    }
+   ]
+  },
+  {
+   "name": "terminal",
+   "resolved": {
+    "accent": "#0000ee",
+    "overlay0": "#e5e5e5",
+    "overlay1": "#ffffff",
+    "subtext0": "#e5e5e5",
+    "mauve": "#e5e5e5",
+    "green": "#00cd00",
+    "yellow": "#cdcd00",
+    "red": "#ff0000",
+    "blue": "#0000ee",
+    "teal": "#00cdcd",
+    "peach": "#cdcd00"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#cdcd00"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#00cdcd"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#0000ee"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#ff0000"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#cdcd00"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#00cd00"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#e5e5e5"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#0000ee"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#ffffff"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#e5e5e5"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#e5e5e5"
+    }
+   ]
+  },
+  {
+   "name": "tokyo-night",
+   "resolved": {
+    "accent": "#7aa2f7",
+    "overlay0": "#565f89",
+    "overlay1": "#697196",
+    "text": "#c0caf5",
+    "subtext0": "#a9b1d6",
+    "mauve": "#bb9af7",
+    "green": "#9ece6a",
+    "yellow": "#e0af68",
+    "red": "#f7768e",
+    "blue": "#7aa2f7",
+    "teal": "#7dcfff",
+    "peach": "#ff9e64"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#ff9e64"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#7dcfff"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#7aa2f7"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#f7768e"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#e0af68"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#9ece6a"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#bb9af7"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#7aa2f7"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#697196"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#565f89"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#a9b1d6"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#c0caf5"
+    }
+   ]
+  },
+  {
+   "name": "tokyo-night-day",
+   "resolved": {
+    "accent": "#2e7de9",
+    "overlay0": "#8990b3",
+    "overlay1": "#68709a",
+    "text": "#3760bf",
+    "subtext0": "#6172b0",
+    "mauve": "#7847bd",
+    "green": "#587539",
+    "yellow": "#8c6c3e",
+    "red": "#f52a65",
+    "blue": "#2e7de9",
+    "teal": "#118c74",
+    "peach": "#b15c00"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#b15c00"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#118c74"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#2e7de9"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#f52a65"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#8c6c3e"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#587539"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#7847bd"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#2e7de9"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#68709a"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#8990b3"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#6172b0"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#3760bf"
+    }
+   ]
+  },
+  {
+   "name": "dracula",
+   "resolved": {
+    "accent": "#bd93f9",
+    "overlay0": "#6272a4",
+    "overlay1": "#828cb4",
+    "text": "#f8f8f2",
+    "subtext0": "#d2d2dc",
+    "mauve": "#ff79c6",
+    "green": "#50fa7b",
+    "yellow": "#f1fa8c",
+    "red": "#ff5555",
+    "blue": "#8be9fd",
+    "teal": "#8be9fd",
+    "peach": "#ffb86c"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#ffb86c"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#8be9fd"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#8be9fd"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#ff5555"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#f1fa8c"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#50fa7b"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#ff79c6"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#bd93f9"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#828cb4"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#6272a4"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#d2d2dc"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#f8f8f2"
+    }
+   ]
+  },
+  {
+   "name": "nord",
+   "resolved": {
+    "accent": "#88c0d0",
+    "overlay0": "#4c566a",
+    "overlay1": "#646e82",
+    "text": "#eceff4",
+    "subtext0": "#d8dee9",
+    "mauve": "#b48ead",
+    "green": "#a3be8c",
+    "yellow": "#ebcb8b",
+    "red": "#bf616a",
+    "blue": "#81a1c1",
+    "teal": "#8fbcbb",
+    "peach": "#d08770"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#d08770"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#8fbcbb"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#81a1c1"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#bf616a"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#ebcb8b"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#a3be8c"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#b48ead"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#88c0d0"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#646e82"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#4c566a"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#d8dee9"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#eceff4"
+    }
+   ]
+  },
+  {
+   "name": "gruvbox",
+   "resolved": {
+    "accent": "#d79921",
+    "overlay0": "#928374",
+    "overlay1": "#a89984",
+    "text": "#ebdbb2",
+    "subtext0": "#d5c4a1",
+    "mauve": "#d3869b",
+    "green": "#b8bb26",
+    "yellow": "#fabd2f",
+    "red": "#fb4934",
+    "blue": "#83a598",
+    "teal": "#8ec07c",
+    "peach": "#fe8019"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#fe8019"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#8ec07c"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#83a598"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#fb4934"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#fabd2f"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#b8bb26"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#d3869b"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#d79921"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#a89984"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#928374"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#d5c4a1"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#ebdbb2"
+    }
+   ]
+  },
+  {
+   "name": "gruvbox-light",
+   "resolved": {
+    "accent": "#076678",
+    "overlay0": "#928374",
+    "overlay1": "#7c6f64",
+    "text": "#3c3836",
+    "subtext0": "#504945",
+    "mauve": "#8f3f71",
+    "green": "#79740e",
+    "yellow": "#b57614",
+    "red": "#9d0006",
+    "blue": "#076678",
+    "teal": "#427b58",
+    "peach": "#af3a03"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#af3a03"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#427b58"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#076678"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#9d0006"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#b57614"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#79740e"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#8f3f71"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#076678"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#7c6f64"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#928374"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#504945"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#3c3836"
+    }
+   ]
+  },
+  {
+   "name": "one-dark",
+   "resolved": {
+    "accent": "#61afef",
+    "overlay0": "#5c6370",
+    "overlay1": "#737a87",
+    "text": "#abb2bf",
+    "subtext0": "#969ca8",
+    "mauve": "#c678dd",
+    "green": "#98c379",
+    "yellow": "#e5c07b",
+    "red": "#e06c75",
+    "blue": "#61afef",
+    "teal": "#56b6c2",
+    "peach": "#d19a66"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#d19a66"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#56b6c2"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#61afef"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#e06c75"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#e5c07b"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#98c379"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#c678dd"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#61afef"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#737a87"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#5c6370"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#969ca8"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#abb2bf"
+    }
+   ]
+  },
+  {
+   "name": "one-light",
+   "resolved": {
+    "accent": "#4078f2",
+    "overlay0": "#a0a1a7",
+    "overlay1": "#686b77",
+    "text": "#383a42",
+    "subtext0": "#686b77",
+    "mauve": "#a626a4",
+    "green": "#50a14f",
+    "yellow": "#c18401",
+    "red": "#e45649",
+    "blue": "#4078f2",
+    "teal": "#0184bc",
+    "peach": "#986801"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#986801"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#0184bc"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#4078f2"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#e45649"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#c18401"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#50a14f"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#a626a4"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#4078f2"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#686b77"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#a0a1a7"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#686b77"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#383a42"
+    }
+   ]
+  },
+  {
+   "name": "solarized",
+   "resolved": {
+    "accent": "#268bd2",
+    "overlay0": "#586e75",
+    "overlay1": "#657b83",
+    "text": "#93a1a1",
+    "subtext0": "#839496",
+    "mauve": "#d33682",
+    "green": "#859900",
+    "yellow": "#b58900",
+    "red": "#dc322f",
+    "blue": "#268bd2",
+    "teal": "#2aa198",
+    "peach": "#cb4b16"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#cb4b16"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#2aa198"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#268bd2"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#dc322f"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#b58900"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#859900"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#d33682"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#268bd2"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#657b83"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#586e75"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#839496"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#93a1a1"
+    }
+   ]
+  },
+  {
+   "name": "solarized-light",
+   "resolved": {
+    "accent": "#268bd2",
+    "overlay0": "#93a1a1",
+    "overlay1": "#586e75",
+    "text": "#657b83",
+    "subtext0": "#839496",
+    "mauve": "#d33682",
+    "green": "#859900",
+    "yellow": "#b58900",
+    "red": "#dc322f",
+    "blue": "#268bd2",
+    "teal": "#2aa198",
+    "peach": "#cb4b16"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#cb4b16"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#2aa198"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#268bd2"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#dc322f"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#b58900"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#859900"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#d33682"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#268bd2"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#586e75"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#93a1a1"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#839496"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#657b83"
+    }
+   ]
+  },
+  {
+   "name": "kanagawa",
+   "resolved": {
+    "accent": "#7e9cd8",
+    "overlay0": "#727169",
+    "overlay1": "#87867d",
+    "text": "#dcd7ba",
+    "subtext0": "#c8c3aa",
+    "mauve": "#957fb8",
+    "green": "#76946a",
+    "yellow": "#c0a36e",
+    "red": "#c34043",
+    "blue": "#7e9cd8",
+    "teal": "#7fb4ca",
+    "peach": "#ffa066"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#ffa066"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#7fb4ca"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#7e9cd8"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#c34043"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#c0a36e"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#76946a"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#957fb8"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#7e9cd8"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#87867d"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#727169"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#c8c3aa"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#dcd7ba"
+    }
+   ]
+  },
+  {
+   "name": "kanagawa-lotus",
+   "resolved": {
+    "accent": "#4d699b",
+    "overlay0": "#a09cac",
+    "overlay1": "#8a8980",
+    "text": "#545464",
+    "subtext0": "#43436c",
+    "mauve": "#624c83",
+    "green": "#6f894e",
+    "yellow": "#77713f",
+    "red": "#c84053",
+    "blue": "#4d699b",
+    "teal": "#4e8ca2",
+    "peach": "#cc6d00"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#cc6d00"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#4e8ca2"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#4d699b"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#c84053"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#77713f"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#6f894e"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#624c83"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#4d699b"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#8a8980"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#a09cac"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#43436c"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#545464"
+    }
+   ]
+  },
+  {
+   "name": "rose-pine",
+   "resolved": {
+    "accent": "#c4a7e7",
+    "overlay0": "#6e6a86",
+    "overlay1": "#908caa",
+    "text": "#e0def4",
+    "subtext0": "#c8c5dc",
+    "mauve": "#c4a7e7",
+    "green": "#31748f",
+    "yellow": "#f6c177",
+    "red": "#eb6f92",
+    "blue": "#31748f",
+    "teal": "#9ccfd8",
+    "peach": "#ea9a97"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#ea9a97"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#9ccfd8"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#31748f"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#eb6f92"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#f6c177"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#31748f"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#c4a7e7"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#c4a7e7"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#908caa"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#6e6a86"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#c8c5dc"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#e0def4"
+    }
+   ]
+  },
+  {
+   "name": "rose-pine-dawn",
+   "resolved": {
+    "accent": "#907aa9",
+    "overlay0": "#9893a5",
+    "overlay1": "#797593",
+    "text": "#464261",
+    "subtext0": "#797593",
+    "mauve": "#907aa9",
+    "green": "#286983",
+    "yellow": "#ea9d34",
+    "red": "#b4637a",
+    "blue": "#286983",
+    "teal": "#56949f",
+    "peach": "#d7827e"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#d7827e"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#56949f"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#286983"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#b4637a"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#ea9d34"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#286983"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#907aa9"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#907aa9"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#797593"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#9893a5"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#797593"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#464261"
+    }
+   ]
+  },
+  {
+   "name": "vesper",
+   "resolved": {
+    "accent": "#ffc799",
+    "overlay0": "#5c5c5c",
+    "overlay1": "#7e7e7e",
+    "text": "#ffffff",
+    "subtext0": "#a0a0a0",
+    "mauve": "#ffd1a8",
+    "green": "#99ffe4",
+    "yellow": "#ffc799",
+    "red": "#ff8080",
+    "blue": "#b0b0b0",
+    "teal": "#66ddcc",
+    "peach": "#ffc799"
+   },
+   "rules": [
+    {
+     "starts_with": "​​​​​​​​​​​​",
+     "fg": "#ffc799"
+    },
+    {
+     "starts_with": "​​​​​​​​​​​",
+     "fg": "#66ddcc"
+    },
+    {
+     "starts_with": "​​​​​​​​​​",
+     "fg": "#b0b0b0"
+    },
+    {
+     "starts_with": "​​​​​​​​​",
+     "fg": "#ff8080"
+    },
+    {
+     "starts_with": "​​​​​​​​",
+     "fg": "#ffc799"
+    },
+    {
+     "starts_with": "​​​​​​​",
+     "fg": "#99ffe4"
+    },
+    {
+     "starts_with": "​​​​​​",
+     "fg": "#ffd1a8"
+    },
+    {
+     "starts_with": "​​​​​",
+     "fg": "#ffc799"
+    },
+    {
+     "starts_with": "​​​​",
+     "fg": "#7e7e7e"
+    },
+    {
+     "starts_with": "​​​",
+     "fg": "#5c5c5c"
+    },
+    {
+     "starts_with": "​​",
+     "fg": "#a0a0a0"
+    },
+    {
+     "starts_with": "​",
+     "fg": "#ffffff"
+    }
+   ]
+  }
+ ],
+ "coloured": [
+  [
+   "text",
+   "​x y"
+  ],
+  [
+   "subtext0",
+   "​​x y"
+  ],
+  [
+   "overlay0",
+   "​​​x y"
+  ],
+  [
+   "overlay1",
+   "​​​​x y"
+  ],
+  [
+   "accent",
+   "​​​​​x y"
+  ],
+  [
+   "mauve",
+   "​​​​​​x y"
+  ],
+  [
+   "green",
+   "​​​​​​​x y"
+  ],
+  [
+   "yellow",
+   "​​​​​​​​x y"
+  ],
+  [
+   "red",
+   "​​​​​​​​​x y"
+  ],
+  [
+   "blue",
+   "​​​​​​​​​​x y"
+  ],
+  [
+   "teal",
+   "​​​​​​​​​​​x y"
+  ],
+  [
+   "peach",
+   "​​​​​​​​​​​​x y"
+  ],
+  [
+   "nonsense",
+   "​x y"
+  ],
+  [
+   "",
+   "​x y"
+  ]
+ ]
+}
