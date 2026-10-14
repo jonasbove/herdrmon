@@ -1,11 +1,11 @@
-package main
+package pokedex
 
 // Code generated from pret/pokeemerald (include/constants/pokedex.h,
 // src/data/text/species_names.h). Names and numbers only; no art.
 
-// Species: every Gen 3 Pokémon in national dex order. Slug is the pret
+// Gen3: every Gen 3 Pokémon in national dex order. Slug is the pret
 // graphics/pokemon folder name, also the frames.json key.
-var gen3 = [...]Species{
+var Gen3 = [...]Species{
 	{1, "bulbasaur", "Bulbasaur"},
 	{2, "ivysaur", "Ivysaur"},
 	{3, "venusaur", "Venusaur"},

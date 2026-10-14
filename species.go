@@ -4,16 +4,16 @@ package main
 // selector's search.
 
 import (
-	"hash/fnv"
 	"strconv"
 	"strings"
+
+	"herdrmon/internal/pokedex"
 )
 
-type Species struct {
-	Dex     int
-	Slug    string // pret graphics/pokemon folder name: "ho_oh", "mr_mime"
-	Display string // "Ho-oh", "Mr. Mime"
-}
+// The species table lives in internal/pokedex, shared with the sidebar plugin.
+type Species = pokedex.Species
+
+var gen3 = pokedex.Gen3
 
 var speciesBySlug = func() map[string]Species {
 	m := make(map[string]Species, len(gen3))
@@ -62,10 +62,7 @@ func lookupSpecies(s string) (Species, bool) {
 }
 
 // machineMons: sensible "machine" Pokémon for devices whose name says nothing.
-var machineMons = []string{
-	// Order is part of the contract (font/fetch.py, sidebar/lib/species.js).
-	"porygon", "porygon2", "magnemite", "magneton", "voltorb", "electrode", "geodude", "onix", "beldum", "metang", "baltoy", "claydol", "lunatone", "solrock", "registeel",
-}
+var machineMons = pokedex.MachineMons
 
 // defaultMon: the device name itself if it is a species, else a stable pick
 // from machineMons by hash of the name.
@@ -73,9 +70,7 @@ func defaultMon(name string) string {
 	if sp, ok := speciesBySlug[slugify(name)]; ok {
 		return sp.Slug
 	}
-	h := fnv.New32a()
-	h.Write([]byte(slugify(name)))
-	return machineMons[h.Sum32()%uint32(len(machineMons))]
+	return pokedex.MachineMon(slugify(name))
 }
 
 // searchSpecies: dex-ordered matches; a number matches its dex entry first,
