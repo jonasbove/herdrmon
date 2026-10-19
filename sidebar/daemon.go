@@ -2,10 +2,12 @@ package main
 
 // The resident daemon: one per Herdr server, for as long as that server runs.
 //
-// It owns three kinds of pane metadata under its own source:
+// It owns these kinds of pane metadata under its own source:
 //   $mon    this machine's animated Pokémon, on the first agent pane of each
 //           workspace (the row that heads the workspace's group in the Agents
 //           panel), and as workspace metadata for the Spaces panel.
+//   $mon_rail the same Pokémon cropped to its own cells, as workspace
+//           metadata for Herdr's collapsed sidebar (rail.go).
 //   $agent  vendor glyph + name, on every agent pane.
 //   $tools  the other programs in the pane's tab (one muted token), plus
 //           $tool_1..$tool_4 each in its own colour; workspaces get $tools
@@ -233,6 +235,7 @@ type daemon struct {
 	night     *Night
 	ws        map[string]*wsState
 	written   map[string]*string // "p:<pane>" | "w:<ws>" -> last $mon (nil = cleared)
+	rails     map[string]*string // workspace -> last $mon_rail (rail.go)
 	heads     map[string]string  // workspace -> head pane ("" = none)
 	waiting   []waiter
 	scanned   bool
@@ -342,6 +345,11 @@ func (d *daemon) step(target int64) (period, after int64, ok bool) {
 		d.written[key] = value
 		kind, id := key[:1], key[2:]
 		tokens := map[string]any{"mon": nullable(value)}
+		if kind == "w" {
+			rail := railValue(species, value, d.rails[id])
+			d.rails[id] = rail
+			tokens["mon_rail"] = nullable(rail)
+		}
 		if kind == "p" {
 			writes = append(writes, monWrite{at, "pane.report_metadata", map[string]any{"pane_id": id, "source": source, "tokens": tokens}})
 		} else {
@@ -473,6 +481,11 @@ func (d *daemon) step(target int64) (period, after int64, ok bool) {
 	for id := range d.heads {
 		if !present[id] {
 			delete(d.heads, id)
+		}
+	}
+	for id := range d.rails {
+		if !present[id] {
+			delete(d.rails, id)
 		}
 	}
 	d.scanned = true
@@ -749,7 +762,7 @@ func (d *daemon) toolsLoop() {
 /* -------------------------------------------------------- control */
 
 func emptyTokens() map[string]any {
-	t := map[string]any{"mon": nil, "agent": nil, "tools": nil}
+	t := map[string]any{"mon": nil, "mon_rail": nil, "agent": nil, "tools": nil}
 	for i := 0; i < toolSlots; i++ {
 		t["tool_"+strconv.Itoa(i+1)] = nil
 	}
@@ -872,6 +885,7 @@ func runDaemon() (bool, error) {
 		night:     newNight(cfg.Sidebar),
 		ws:        map[string]*wsState{},
 		written:   map[string]*string{},
+		rails:     map[string]*string{},
 		heads:     map[string]string{},
 		toolsSent: map[string]string{},
 		stopDone:  make(chan struct{}),

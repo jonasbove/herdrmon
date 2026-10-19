@@ -11,7 +11,7 @@ platforms = ["linux", "macos"]
 #
 # Tokens published under source "plugin:jonasbove.herdrmon":
 #   pane      $mon (first agent pane of each workspace), $agent, $tools, $tool_1..$tool_4
-#   workspace $mon, $tools, $tool_1..$tool_4
+#   workspace $mon, $mon_rail (the collapsed sidebar), $tools, $tool_1..$tool_4
 
 [[build]]
 command = ["env", "CGO_ENABLED=0", "go", "build", "-trimpath", "-o", "bin/herdrmon-sidebar", "."]

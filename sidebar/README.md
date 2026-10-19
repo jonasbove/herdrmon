@@ -178,6 +178,12 @@ A pane matches the first entry whose `match` fits, checked in order:
   then pane id. That is the first row in Herdr's grouped Agents order. In
   priority order a blocked agent may sort above it, and the Spaces panel
   always shows `$mon`.
+- **Collapsed sidebar.** Each workspace also gets `$mon_rail`: the same
+  frame cropped to the cells the Pokémon uses at rest, so it is the same
+  width in every frame (a send-out, recall or tackle that leaves those cells
+  keeps the last frame that fitted). Stock Herdr ignores it; BovéOS's Herdr
+  patch (`[ui.sidebar.collapsed]`) draws it alone in the collapsed rail,
+  outlined in the colour of the workspace's status icon.
 - **Logs.** The log is `daemon.log` in the plugin's state directory. Touch
   `debug` in the same directory to log every frame write with its lateness.
 

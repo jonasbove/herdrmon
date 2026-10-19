@@ -324,6 +324,7 @@ func TestE2EDaemon(t *testing.T) {
 		c.Env = env
 		return c
 	})
+	dropRails(t, rec)
 	got := normaliseJSON(t, rec)
 	if got != strings.TrimRight(string(want), "\n") {
 		gl, wl := strings.Split(got, "\n"), strings.Split(strings.TrimRight(string(want), "\n"), "\n")
@@ -338,6 +339,33 @@ func TestE2EDaemon(t *testing.T) {
 			if g != w {
 				t.Errorf("line %d:\n go: %q\n js: %q", i+1, g, w)
 			}
+		}
+	}
+}
+
+// dropRails takes out $mon_rail, which the JavaScript plugin never had (so
+// the golden doesn't either), once every workspace with a $mon has one.
+func dropRails(t *testing.T, v any) {
+	t.Helper()
+	switch v := v.(type) {
+	case map[string]any:
+		for key, child := range v {
+			tokens, ok := child.(map[string]any)
+			if !ok {
+				dropRails(t, child)
+				continue
+			}
+			mon, hasMon := tokens["mon"]
+			rail, hasRail := tokens["mon_rail"]
+			if strings.HasPrefix(key, "w:") && hasMon && (!hasRail || (mon == nil) != (rail == nil)) {
+				t.Errorf("%s: $mon %v but $mon_rail %v", key, mon, rail)
+			}
+			delete(tokens, "mon_rail")
+			dropRails(t, tokens)
+		}
+	case []any:
+		for _, child := range v {
+			dropRails(t, child)
 		}
 	}
 }
